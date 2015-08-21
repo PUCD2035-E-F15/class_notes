@@ -39,3 +39,10 @@ iframe
 {
 	background: none;
 }
+
+
+.button-bar
+{
+	display: block;
+	margin-bottom: 1em;
+}

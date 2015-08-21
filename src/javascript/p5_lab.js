@@ -1,6 +1,8 @@
 var editor = ace.edit("editor");
 editor.setTheme("ace/theme/tomorrow");
 editor.getSession().setMode("ace/mode/javascript");
+editor.$blockScrolling = Infinity;
+
 
 script_name = window.location.search.substr(1);
 $.get( script_name, function(source) {

@@ -11,7 +11,7 @@ ellipse(50, 50, 50, 50);
 #### External Example
 
 
-<a href = "test_example/sketch.js" class="p5_example show-preview show-code show-lab">test_example</a>
+<a href = "test_example/sketch.js" class="p5_example show-preview show-code show-lab show-lab-link hidden">test_example</a>
 
 
 

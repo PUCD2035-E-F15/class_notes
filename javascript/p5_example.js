@@ -1,5 +1,3 @@
-console.log("hello, p5 example");
-
 $(function() {
 	$(".p5_example.show-lab").each(function(i, e) {
 		var preview = $('<div class="ratio-16-9"></div>');

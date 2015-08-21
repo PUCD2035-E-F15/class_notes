@@ -1,10 +1,1 @@
-function setup() {
-	createCanvas(1140, 641);
-}
-
-function draw() {
-	background(10);
-	fill(255, 255, 255);
-	stroke(255, 0, 0);
-	ellipse(random(width), random(height), 50, 50);
-}
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(c/a))+String.fromCharCode(c%a+161)};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\[\xa1-\xff]+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp(e(c),'g'),k[c])}}return p}('¥ ¨(){§(ª,¦)}¥ ©(){±(°);«(¡,¡,¡);¯(¡,0,0);£=1;®(¤(¬+£),¤(­),¢,¢)}',17,17,'255|50|stress|random|function|windowHeight|createCanvas|setup|draw|windowWidth|fill|width|height|ellipse|stroke|10|background'.split('|'),0,{}))

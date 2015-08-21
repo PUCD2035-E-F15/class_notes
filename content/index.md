@@ -36,3 +36,5 @@ Processing includes a wide selection of example code. Look at some of the exampl
 This is a very simple example showing a few Processing drawing commands.
 
 <a href="./test_example/sketch.js" class="p5_example show-lab show-lab-link hidden">test_example</a>
+
+<a href="./test_example_2/sketch.js" class="p5_example show-preview hidden">test_example</a>

@@ -1,5 +1,5 @@
 var editor = ace.edit("editor");
-editor.setTheme("ace/theme/monokai");
+editor.setTheme("ace/theme/tomorrow");
 editor.getSession().setMode("ace/mode/javascript");
 
 script_name = window.location.search.substr(1);
@@ -12,9 +12,9 @@ $.get( script_name, function(source) {
 
 
 function inject() {
-	source = editor.getValue()
-	console.clear();
-	$("#preview").attr("src", "p5_view.html?" + "data:script/javascript," + source);
+	source = editor.getValue();
+	source = btoa(source);
+	$("#preview").attr("src", "p5_view.html?" + "data:script/javascript;base64," + source);
 }
 
 

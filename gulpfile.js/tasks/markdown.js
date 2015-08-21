@@ -15,7 +15,7 @@ gulp.task('markdown', function() {
 
 	return gulp.src(config.src)
 		// .pipe(frontMatter({property: 'frontMatter', remove: true}))
-		.pipe(remarkable({preset: 'commonmark'}))
+		.pipe(remarkable({preset: 'full', remarkableOptions: { html: true, linkify: true, typographer: false} }))
 		.pipe(wrap({src: config.template}))
 		.pipe(gulp.dest(config.dest))
 		.pipe(browserSync.reload({ stream:true }));

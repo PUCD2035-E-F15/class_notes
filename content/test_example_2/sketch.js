@@ -3,8 +3,8 @@ function setup() {
 }
 
 function draw() {
-	background(250);
+	background(10);
 	fill(255, 255, 255);
 	stroke(255, 0, 0);
-	ellipse(width * .5, height * .5, 50, 50);
+	ellipse(random(width), random(height), 50, 50);
 }

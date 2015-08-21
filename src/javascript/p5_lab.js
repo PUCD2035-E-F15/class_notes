@@ -16,7 +16,11 @@ $.get( script_name, function(source) {
 function inject() {
 	source = editor.getValue();
 	source = btoa(source);
-	$("#preview").attr("src", "p5_view.html?" + "data:script/javascript;base64," + source);
+	// $("#preview").attr("src", "p5_view.html?" + "data:script/javascript;base64," + source);
+
+	var newUrl = "p5_view.html?" + "data:script/javascript;base64," + source;
+	var frame = $('#preview')[0];  
+	frame.contentWindow.location.replace(newUrl);
 }
 
 

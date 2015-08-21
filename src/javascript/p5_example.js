@@ -1,9 +1,7 @@
-console.log("hello, p5 example");
-
 $(function() {
 	$(".p5_example.show-lab").each(function(i, e) {
 		var preview = $('<div class="ratio-16-9"></div>');
-		var iframe = $('<iframe scrolling="no"></iframe>').attr("src", "p5_lab.html?" + e.href);
+		var iframe = $('<iframe scrolling="no"></iframe>').attr("src", "/p5_lab.html?" + e.href);
 		preview.append(iframe);
 
 		preview.insertBefore(e);
@@ -11,7 +9,7 @@ $(function() {
 
 	$(".p5_example.show-preview").each(function(i, e) {
 		var preview = $('<div class="ratio-16-9"></div>');
-		var iframe = $('<iframe scrolling="no"></iframe>').attr("src", "p5_view.html?" + e.href);
+		var iframe = $('<iframe scrolling="no"></iframe>').attr("src", "/p5_view.html?" + e.href);
 		preview.append(iframe);
 
 		preview.insertBefore(e);
@@ -32,7 +30,7 @@ $(function() {
 
 	$(".p5_example.show-lab-link").each(function(i, e) {
 		var bar = $("<div class='button-bar'>");
-		var link = $("<a class='lab-link btn btn-primary'>Play with this!</a>").attr("href", "p5_lab.html?" + e.href);
+		var link = $("<a class='lab-link btn btn-primary'>Play with this!</a>").attr("href", "/p5_lab.html?" + e.href);
 		bar.append(link);
 
 		bar.insertBefore(e);

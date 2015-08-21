@@ -1,5 +1,4 @@
-base_url = base_url || "/";
-console.log("base_url", base_url);
+var base_url = base_url || "/";
 
 $(function() {
 	$(".p5_example.show-lab").each(function(i, e) {
@@ -33,7 +32,7 @@ $(function() {
 
 	$(".p5_example.show-lab-link").each(function(i, e) {
 		var bar = $("<div class='button-bar'>");
-		var link = $("<a class='lab-link btn btn-primary'>Play with this!</a>").attr("href", base_url + "p5_lab.html?" + e.href);
+		var link = $("<a class='lab-link btn btn-primary'>Open in Editor</a>").attr("href", base_url + "p5_lab.html?" + e.href);
 		bar.append(link);
 
 		bar.insertBefore(e);

@@ -195,7 +195,7 @@ Assignment: Network Assignment
 
 <br/><br/>
 ### <span class="label label-default">Unit 3</span> 
-# Advanced Topics and Final
+# Advanced Topics and Final Project
 
 <br/>
 ### Week 11, November 13

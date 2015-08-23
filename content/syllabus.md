@@ -1,3 +1,5 @@
+# Course Syllabus
+
 | Parsons The New School for Design
 | ---
 | School of Art, Media and Technology
@@ -5,8 +7,10 @@
 | PUCD 2035 E; CRN 5731
 | Fall 2015
 | Fridays 3:50pm—6:30pm, 6 East 16th Street, Room 609
-| 
+
+
 | Justin Bakse
+| ---
 | baksej@newschool.edu
 | http://justinbakse.com
 
@@ -22,26 +26,31 @@ At its core, the objective of this class is to teach you how to program — or i
 ## Calendar Outline
 The following outlines the main topics to be presented in each class. This may be adjusted during the semester.
 
-| Calendar
-| ---
-| Unit 1 - Introduction to Programming in Javascript and p5
-| Week 1 |	September 4		| Intro to Programming
-| Week 2 |	September 11	| Javascript Syntax
-| Week 3 |	September 18	| Interactivity and Animation
-| Week 4 |	September 25	| Data and Functions
-| Week 5 |	October 2		| Working with Images
-| Unit 2 - Creative Computing Projects
-| Week 6 |	October 9		| Intro to Interaction Design
-| Week 7 |	October 16		| Programming Interactions
-| Week 8 |	October 23		| Interaction and Narrative
-| Week 9 |	October 30		| Collaborative Programming
-| Week 10 |	November 6		| Programming for the Web
-| Unit 3 - Advanced Topics and Final
-| Week 11 |	November 13		| Advanced Topics
-| Week 12 |	November 20		| Creating Proposals
-| Week 13 |	December 4		| Creating Proofs of Concept
-| Week 14 |	December 11		| WIP Critique
-| Week 15 |	December 18		| Final Critique
+<style type="text/css"> td:first-child {width: 100px;}</style>
+
+| Unit 1 | Introduction to Programming in Javascript and p5
+| --- | ---
+| Week 1 | Intro to Programming
+| Week 2 | Intro to Javascript Syntax
+| Week 3 | Interactivity and Animation in p5
+| Week 4 | Javascript Functions and Data
+| Week 5 | Working with Images in p5
+
+| Unit 2 | Creative Computing Projects
+| --- | ---
+| Week 6 | Intro to Interaction Design
+| Week 7 | Programming Interactions
+| Week 8 | Interaction and Narrative
+| Week 9 | Collaborative Programming
+| Week 10 | Programming for the Web
+
+| Unit 3 | Advanced Topics and Final
+| --- | ---
+| Week 11 | Advanced Topics
+| Week 12 | Creating Proposals
+| Week 13 | Creating Proofs of Concept
+| Week 14 | WIP Critique
+| Week 15 | Final Critique
 
 
 ## Learning Outcomes

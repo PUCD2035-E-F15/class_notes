@@ -1,12 +1,19 @@
+// a more complex sketch that animates 
+// several bouncing ellipses.
+
+// we'll cover all of the sytax and
+// concepts illustrated here
+// over the course of this class
+
 var balls;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	
+
 	// create a collection of balls
 	balls = [];
 	for (i = 0; i < 10; i++) {
-		balls[i] =new Ball();
+		balls[i] = new Ball();
 	}
 }
 
@@ -23,11 +30,11 @@ function draw() {
 
 // Define the idea of a "ball", including its position, speed, and how it behaves.
 var Ball = function() {
-	console.log("Creating a Ball");
+	console.log("Creating a Ball.");
 	this.x = width * .5;
 	this.y = height * .5;
-	this.speedX = random(-10,10);
-	this.speedY = random(-10,10);
+	this.speedX = random(-10, 10);
+	this.speedY = random(-10, 10);
 }
 
 Ball.prototype.step = function() {

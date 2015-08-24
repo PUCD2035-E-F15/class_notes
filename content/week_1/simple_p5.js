@@ -1,3 +1,5 @@
+// a simple p5 sketch that draws an ellipse
+
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 }

@@ -144,9 +144,19 @@ We will be working with the following software.
 
 You will also need to set up an account on [Github](http://www.github.com)
 
+### Introduction to Git and Github
+
+[Git](http://git-scm.com/) is a version control system. As you work on a project it will grow and change. Git keeps track of the changes you make to the files in your project. Keeping a history can be very valuable. With version control, you can review changes to a file over time and you can revert a single file or entire project to an earlier version is something goes wrong. Git also provides powerful tools for sharing your work with others and merging the work of teammates.
+
+[Github](http://www.github.com) is a service that hosts software projects that are managed with Git. Github builds on Git, adding features for collaborative coding such as bug tracking and code reviews. Github hosts a huge array of open-source projects and libraries.
+
+Normally, you use the Git software through its command line interface. If you are not comfortable using the command line, you won't be comfortable using Git in this way. [Github Desktop](https://desktop.github.com/) is a simple graphical user interface for Git, with added integration with Github. Github desktop isn't as powerful as the command line interface, but it can cover the basic workflows we'll use in class.
+
 ### Forking and Cloning the Project Template
 
-You will start many assignments in this class by creating a copy of the project template to edit. Github calls this [forking](https://help.github.com/articles/fork-a-repo/), and makes it easy to create forks of projects hosted on Github.
+I have created a template project that you will use as the basis of your first week's assignment. This template is stored in a Git repository and hosted on Github.
+
+Start the assignment creating a copy of the project template to edit. Github calls this [forking](https://help.github.com/articles/fork-a-repo/), and makes it easy to create forks of projects hosted on Github.
 
 Once you have forked the project template, you'll want to clone it to your local computer to work with. When you work with Git and Github, you'll often have two copies of your project: one on your local computer where you make changes, and another on Github where other people can see your work. The Github app makes it easy to maintain a list of changes you make to your project, and to 'push' those changes to Github.
 
@@ -162,9 +172,25 @@ To make changes to the template and to create your program, you will use a text 
 
 ### Using `console.log()`
 
+<a href="./console_log.js" class="p5_example show-code show-lab-link hidden">test_example</a>
+
+
 ### Using Comments
 
 <!-- ############################################# -->
 
 ## Week 1 Assignment
 
+## Related Readings and Resources
+
+- [Javascript Basics @ MDN](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
+
+- [p5 Tutorials](http://p5js.org/tutorials/)
+
+- [Javascript @ Code Academy ](https://www.codecademy.com/tracks/javascript)
+
+- [Lynda.com](http://www.lynda.com/)
+
+- [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+
+- [Chrome DevTools Overview](https://developer.chrome.com/devtools)

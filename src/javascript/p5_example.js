@@ -32,7 +32,7 @@ $(function() {
 
 	$(".p5_example.show-lab-link").each(function(i, e) {
 		var bar = $("<div class='button-bar'>");
-		var link = $("<a class='lab-link btn btn-primary'>Open in Editor</a>").attr("href", base_url + "p5_lab.html?" + e.href);
+		var link = $("<a class='lab-link btn btn-xs btn-primary'>Open in Editor</a>").attr("href", base_url + "p5_lab.html?" + e.href);
 		bar.append(link);
 
 		bar.insertBefore(e);

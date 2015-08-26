@@ -2,6 +2,31 @@ body {
 	/*font-size: 18px;*/
 }
 
+
+h1, h2, h3, h4
+{
+	 margin-top: 1.5em;
+}
+
+h1
+{
+	font-size: 3em;
+	margin-bottom: 1em;
+	/*font-weight: bold;*/
+}
+
+h2 {
+	font-size: 2.5em;
+	margin-bottom: 1em;
+	/*font-weight: bold;*/
+}
+
+h3 {
+	font-size: 1.75em;
+	margin-bottom: 1em;
+	/*font-weight: bold;*/
+}
+
 pre
 {
 	background-color: #F8F8FE;

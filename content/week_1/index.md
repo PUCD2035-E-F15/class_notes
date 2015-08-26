@@ -154,21 +154,25 @@ Normally, you use the Git software through its command line interface. If you ar
 
 ### Forking and Cloning the Project Template
 
-I have created a template project that you will use as the basis of your first week's assignment. This template is stored in a Git repository and hosted on Github.
+I have created a template project that you will use as the basis of your first week's assignment. This template is hosted on Github.
 
-Start the assignment creating a copy of the project template to edit. Github calls this [forking](https://help.github.com/articles/fork-a-repo/), and makes it easy to create forks of projects hosted on Github.
+Start the assignment creating a copy of the project template. Github calls this [forking](https://help.github.com/articles/fork-a-repo/), and makes it easy to create forks of projects hosted on Github.
 
-Once you have forked the project template, you'll want to clone it to your local computer to work with. When you work with Git and Github, you'll often have two copies of your project: one on your local computer where you make changes, and another on Github where other people can see your work. The Github app makes it easy to maintain a list of changes you make to your project, and to 'push' those changes to Github.
+Once you have forked the project template, you'll need to clone it to your local computer to work with. When you work with Git and Github, you'll often have two copies of your project: one on your local computer where you make changes, and another on Github where other people can see your work. The Github app makes it easy to maintain a list of changes you make to your project, and to 'push' those changes to Github.
 
 ### Viewing the Project
 
-You can use Chrome to open files on your computer and view them just like you view web pages. You need to open `index.html` to view the project in Chrome.
+Chrome can open files on your computer and will show them as if they were normal webpages. You need to open `index.html` to view the project in Chrome.
 
 ### Editing the Project
 
-To make changes to the template and to create your program, you will use a text editor. You won't need to edit the html yet. For now you want to open and edit `sketch.js`.
+To make changes to the template and to create your program, you will use a text editor. There are a few files in the project template, but for now you just need to edit `sketch.js`.
 
 ### The p5 Drawing API
+
+In this weeks assignment you'll be using the p5 library to create a drawing. p5 provides several commands for drawing shapes and working with color. You can view a full list of commands with descriptions and example code on the [p5 API reference](http://p5js.org/reference/).
+
+<a href="./drawing.js" class="p5_example show-lab show-lab-link hidden">test_example</a>
 
 ### Using `console.log()`
 
@@ -176,6 +180,7 @@ To make changes to the template and to create your program, you will use a text 
 
 
 ### Using Comments
+<a href="./comments.js" class="p5_example show-lab show-lab-link hidden">test_example</a>
 
 <!-- ############################################# -->
 

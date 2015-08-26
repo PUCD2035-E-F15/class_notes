@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/bootswatch.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/atelier-health.light.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/main.css">
+	<script type="text/javascript">
+		var base_url = "/class_notes/";
+	</script>
+
+</head>
+<body>
+	<!-- title:  -->
+	<div class="container">
+		<h1>Week 1 Class Notes</h1>
+<p>Welcome Music: <a href="http://www.youtube.com/watch?v=EbHO1ZYhtLk">Vib Ribbon Intro</a></p>
+<h2>Course Introduction</h2>
+<ul>
+<li>Syllabus Review</li>
+<li>Class Introductions</li>
+</ul>
+<h3>Learning Objectives</h3>
+<p>We are going to cover a lot of material in this class. You learn the basics of computer programming for creative applications. You will also develop your design skills by practicing methods of design for interactive and other digital projects. A full outline of class topics is <a href="../topics.html">here</a>.</p>
+<h3>What Creative Computing Is</h3>
+<p>Computers are widely used in art and design. Almost all design work created today contains computationally generated/altered elements.</p>
+<p>Many effects that were created by custom code in the past are now baked into Photoshop and After Effects. Coding can be used to create interactive experiences, animations, and even static illustration work. Code grants the ability to explore variations of complex themes quickly.</p>
+<p>With traditional design and art media, you are constrained to a single expression of your intent. With digital media, you can codify your intent, and create works and forms that can change in response to unknown future contexts. You can create systems that can grow. You can build your intentions into your work and create a work that can not only speak AT your audience but that can engage in a dialog.</p>
+<p>Code is a powerful tool for creative work:</p>
+<ul>
+<li><p>Exploring Form</p>
+<p><a href="https://vimeo.com/62413774">3D Zoetrope</a>, <a href="https://vimeo.com/136764796">Glass Printing</a>, <a href="http://www.evilmadscientist.com/2012/stipplegen-weighted-voronoi-stippling-and-tsp-paths-in-processing/">StippleGen</a>, <a href="http://www.flong.com/projects/floccugraph/">Floccular Portraits</a></p></li>
+<li><p>Creating Dynamic Work</p>
+<p><a href="https://vimeo.com/33246377">Generative Cities</a>, <a href="https://vimeo.com/13969685">Boids</a>, <a href="https://vimeo.com/105485532">Withervanes</a></p></li>
+<li><p>Creating Interactive Work</p>
+<p><a href="http://www.vectorpark.com/">Vector Park</a>, <a href="https://vimeo.com/45417241">Motion V</a>, <a href="http://recursivedrawing.com/">Recursive Drawing</a></p></li>
+</ul>
+<!-- ############################################# -->
+<h2>Introduction to Programming</h2>
+<h3>What a Program Is</h3>
+<ul>
+<li>A program is a set of instructions that explains to the computer what you want it to do.</li>
+<li>A program is a file on the computer that can be read and executed.</li>
+<li>A program is an art medium that lets you express how your work should behave, rather than simply how it should look.</li>
+</ul>
+<h3>What Programming Is</h3>
+<p>Computer programming is the process of creating a program that does what you want. Programming is complex mental activity that requires and strengthens a variety of skills. <strong>Skills you already have</strong>, even if you have never programmed a computer before.</p>
+<ul>
+<li>Clearly defining your goals, creating a detailed plan for achieving them, and expressing your plan in writing.</li>
+<li>Solving problems through careful observation, deliberate testing, and thoughtful consideration.</li>
+<li>Searching for and filtering information in documentation and online forums.</li>
+</ul>
+<p>We will also be introducing some skills that may be new to you. But in most cases these skills are extensions of the skills above.</p>
+<ul>
+<li>How to plan and implement a computer program</li>
+<li>Writing and reading the Javascript language</li>
+<li>Debugging problems in your code</li>
+<li>Reading technical documentation</li>
+</ul>
+<h3>Learning to Program</h3>
+<p>The most important skill in programming is learning how to think formally about what you are trying to make the computer do—to break down and specifically describe a complex, initially vague goal. This skill is central to programming regardless of the language and environment you choose. This skill is extremely valuable in almost all collaborative (and many solo) creative endeavors, even when a computer is not involved.</p>
+<p>The next most important skill is learning how to solve problems. In programming, this is often called debugging. This requires observing the problem and understanding it, research, and deliberate testing. <strong>Most of a programmer's time is spent fixing problems, not writing code.</strong> This is especially true when starting to program or programming in a new language or domain. Spending time fixing problems does <strong>not</strong> indicate that you are bad at programming or don't &quot;get it&quot;.</p>
+<p>A third important skill is learning to read technical documentation. There are many programming languages and countless libraries and other resources. No programmer can remember every detail of the languages and APIs that they use. Programmer spend as much time looking things up as coding.</p>
+<p>The final skill is learning how to communicate in the language you are using. This requires both understanding the grammar or syntax of the language, as well as the vocabulary. We will spend much of our time in class covering aspects of this skill, <strong>the other skills will largely develop only with experience</strong>.</p>
+<h3>Computers are Ignorant Stupid Jerks</h3>
+<p>Computers are Ignorant; they have no knowledge. They know how to do only a few very basic things. A computer doesn't know what a square, a day, or a cat is, unless you explain it.</p>
+<p>Computers are Stupid; they have no intelligence whatsoever. They can not figure out how to do something on their own. When you explain something to a person, they are responsible for most of the work of learning. When you explain how to do something to a computer, you must do ALL of the work. They will consider your instructions without any sense of context or history. They can not &quot;catch on&quot;.</p>
+<p>Computers are Jerks; they are obnoxious, rude, and completely lack empathy. Computers don't mean to be, but because they are stupid and ignorant they often come off like a jerk. When a computer does what you ask, if they encounter even the slightest formatting mistake, they will refuse to continue. When your instructions don't have formatting mistakes, the computer will do exactly what you ask them to, rather than what you clearly intend.</p>
+<!-- ############################################# -->
+<h2>Introduction to Javascript and p5.js</h2>
+<h3>What Javascript Is</h3>
+<p>Javascript is a programming language, it allows you to express instructions for a computer to follow. Javascript is most commonly used alongside HTML and CSS to add interactivity to web pages. A great place to learn about javascript is the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Javascript Reference</a></p>
+<p><strong>An example of Javascript</strong></p>
+<pre><code class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">handleClick</span>(<span class="hljs-params"></span>) </span>{
+    alert(<span class="hljs-string">"Hello, World!"</span>);
+}
+<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">"example-button"</span>).addEventListener( <span class="hljs-string">"click"</span>, handleClick);
+</code></pre>
+<button id="example-button" class="btn btn-success">Example Button</button>
+<script type="text/javascript">
+function handleClick() {
+    alert("Hello, World!");
+}
+document.getElementById("example-button").addEventListener( "click", handleClick);
+</script>
+<h3>What p5.js Is</h3>
+<p>From the <a href="http://p5js.org/">p5js Homepage</a>:</p>
+<blockquote>
+<p>p5.js is a JavaScript library that starts with the original goal of <a href="http://processing.org">Processing</a>, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today's web.</p>
+<p>Using the original metaphor of a software sketchbook, p5.js has a full set of mdrawing functionality. However, you're not limited to your drawing canvas, you can think of your whole browser page as your sketch!</p>
+<p>For this, p5.js has addon libraries that make it easy to interact with other HTML5 objects, including text, input, video, webcam, and sound.</p>
+</blockquote>
+<p><a href="http://hello.p5js.org/">Introduction to p5 Video</a></p>
+<h3>A Simple Example</h3>
+<p><a href="./simple_p5.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h3>An More Complex Example</h3>
+<p><a href="./complex_p5.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<!-- ############################################# -->
+<h2>Programming with Javascript and p5.js</h2>
+<h3>Required Software</h3>
+<p>We will be working with the following software.</p>
+<ul>
+<li><a href="https://atom.io/">Atom</a></li>
+<li><a href="http://www.google.com/chrome/">Chrome</a></li>
+<li><a href="https://desktop.github.com/">Github Desktop</a></li>
+</ul>
+<p>You will also need to set up an account on <a href="http://www.github.com">Github</a></p>
+<h3>Introduction to Git and Github</h3>
+<p><a href="http://git-scm.com/">Git</a> is a version control system. As you work on a project it will grow and change. Git keeps track of the changes you make to the files in your project. Keeping a history can be very valuable. With version control, you can review changes to a file over time and you can revert a single file or entire project to an earlier version is something goes wrong. Git also provides powerful tools for sharing your work with others and merging the work of teammates.</p>
+<p><a href="http://www.github.com">Github</a> is a service that hosts software projects that are managed with Git. Github builds on Git, adding features for collaborative coding such as bug tracking and code reviews. Github hosts a huge array of open-source projects and libraries.</p>
+<p>Normally, you use the Git software through its command line interface. If you are not comfortable using the command line, you won't be comfortable using Git in this way. <a href="https://desktop.github.com/">Github Desktop</a> is a simple graphical user interface for Git, with added integration with Github. Github desktop isn't as powerful as the command line interface, but it can cover the basic workflows we'll use in class.</p>
+<h3>Forking and Cloning the Project Template</h3>
+<p>I have created a template project that you will use as the basis of your first week's assignment. This template is hosted on Github.</p>
+<p>Start the assignment creating a copy of the project template. Github calls this <a href="https://help.github.com/articles/fork-a-repo/">forking</a>, and makes it easy to create forks of projects hosted on Github.</p>
+<p>Once you have forked the project template, you'll need to clone it to your local computer to work with. When you work with Git and Github, you'll often have two copies of your project: one on your local computer where you make changes, and another on Github where other people can see your work. The Github app makes it easy to maintain a list of changes you make to your project, and to 'push' those changes to Github.</p>
+<h3>Viewing the Project</h3>
+<p>Chrome can open files on your computer and will show them as if they were normal webpages. You need to open <code>index.html</code> to view the project in Chrome.</p>
+<h3>Editing the Project</h3>
+<p>To make changes to the template and to create your program, you will use a text editor. There are a few files in the project template, but for now you just need to edit <code>sketch.js</code>.</p>
+<h3>The p5 Drawing API</h3>
+<p>In this weeks assignment you'll be using the p5 library to create a drawing. p5 provides several commands for drawing shapes and working with color. You can view a full list of commands with descriptions and example code on the <a href="http://p5js.org/reference/">p5 API reference</a>.</p>
+<p><a href="./drawing.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h3>Using <code>console.log()</code></h3>
+<p><a href="./console_log.js" class="p5_example show-code show-lab-link hidden">test_example</a></p>
+<h3>Using Comments</h3>
+<p><a href="./comments.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<!-- ############################################# -->
+<h2>Week 1 Assignment</h2>
+<h2>Related Readings and Resources</h2>
+<ul>
+<li><p><a href="https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics">Javascript Basics @ MDN</a></p></li>
+<li><p><a href="http://p5js.org/tutorials/">p5 Tutorials</a></p></li>
+<li><p><a href="https://www.codecademy.com/tracks/javascript">Javascript @ Code Academy </a></p></li>
+<li><p><a href="http://www.lynda.com/">Lynda.com</a></p></li>
+<li><p><a href="https://help.github.com/articles/good-resources-for-learning-git-and-github/">Good Resources for Learning Git and GitHub</a></p></li>
+<li><p><a href="https://developer.chrome.com/devtools">Chrome DevTools Overview</a></p></li>
+</ul>
+
+	</div>
+	
+	<script type="text/javascript" src="/class_notes/javascript/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/highlight.pack.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/p5_example.js"></script>
+	<script type="text/javascript">
+		$( function() {
+			$("table").addClass("table table-bordered");
+		});
+	</script>
+</body>
+</html>

@@ -1,3 +1,5 @@
-Class syllabus, lecture notes and resources for PUCD2035 E, Fall 2015.
+# PUCD2035 E, Fall 2015 Class Notes
 
-[View Notes](http://pucd2035-e-f15.github.io/class_notes/)
+Source code for the PUCD2035 E, Fall 2015 website: class syllabus, lecture notes and resources.
+
+[Open Site](http://pucd2035-e-f15.github.io/class_notes/)

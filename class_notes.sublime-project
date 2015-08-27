@@ -8,6 +8,9 @@
 				"node_modules"
 			],
 			"path": "."
+		},
+		{
+			"path": "/Users/jbakse/Documents/Projects/p5_template"
 		}
 	]
 }

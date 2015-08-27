@@ -1,10 +1,7 @@
 # Class Calendar
 
-<br/>
-### <span class="label label-default">Unit 1</span> 
-## Introduction to Programming in Javascript and p5
+## Unit 1: Introduction to Programming in Javascript and p5
 
-<br/>
 ### Week 1, September 4
 
 - course overview
@@ -38,7 +35,6 @@ Assignment: Basic Drawing
 ```
 
 
-<br/>
 ### Week 2, September 11
 
 - homework review
@@ -61,7 +57,6 @@ Assignment: Variable Drawing
 ```
 
 
-<br/>
 ### Week 3, September 18
 
 - selected homework code review
@@ -83,7 +78,6 @@ Assignment: Coding Challenges
 ```
 
 
-<br/>
 ### Week 4, September 25
 
 - selected homework code review
@@ -99,7 +93,6 @@ Assignment: Coding Challenges
 ```
 
 
-<br/>
 ### Week 5, October 2
 
 - selected homework code review
@@ -112,11 +105,8 @@ Assignment: Open Programming
 
 
 
-<br/><br/>
-### <span class="label label-default">Unit 2</span> 
-# Creative Computing Projects
+## Unit 2: Creative Computing Projects
 
-<br/>
 ### Week 6, October 9
 
 - javascript/p5 basics test
@@ -130,7 +120,6 @@ Assignment: Interaction Charades Story Boarding
 ```
 
 
-<br/>
 ### Week 7, October 16
 
 - planning larger programs
@@ -146,7 +135,6 @@ Assignment: Interaction Charades Implementation
 ```
 
 
-<br/>
 ### Week 8, October 23
 
 - interaction charades critique
@@ -159,7 +147,6 @@ Assignment: Children's Book Interactive Illustration
 ```
 
 
-<br/>
 ### Week 9, October 30
 
 - children's book critique
@@ -172,7 +159,6 @@ Assignment: Crowd Source Project
 ```
 
 
-<br/>
 ### Week 10, November 6
 
 - crowd source review
@@ -193,11 +179,8 @@ Assignment: Network Assignment
 ```
 
 
-<br/><br/>
-### <span class="label label-default">Unit 3</span> 
-# Advanced Topics and Final Project
+## Unit 3 - Advanced Topics and Final Project
 
-<br/>
 ### Week 11, November 13
 
 - advanced topics
@@ -211,7 +194,6 @@ Assignment: Final Project Brainstorming
 ```
 
 
-<br/>
 ### Week 12, November 20
 
 - creating proposals
@@ -222,10 +204,8 @@ Assignment: Final Project Brainstorming
 Assignment: Final Project Proposal
 ```
 
-<br/>
 ### <span class="label label-info">No Class, November 27, Thanksgiving Break</span>
 
-<br/>
 ### Week 13, December 4
 
 - creating proofs of concept
@@ -237,7 +217,6 @@ Assignment: Final Project POC
 ```
 
 
-<br/>
 ### Week 14, December 11
 
 - in-class work
@@ -249,7 +228,6 @@ Assignment: Final Project WIP
 ```
 
 
-<br/>
 ### Week 15, December 18
 
 - final project critique

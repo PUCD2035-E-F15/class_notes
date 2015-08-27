@@ -2,7 +2,7 @@
 
 ## [Class Syllabus](syllabus.html) • [Class Calendar](calendar.html) • [Class Topics](topics.html)
 
-#### [Online Resources](#online_resources.html) • [Assignment Specfication](#specification.html) 
+#### [Sketch Lab](http://pucd2035-e-f15.github.io/class_notes/p5_lab.html) • [Online Resources](#online_resources.html) • [Assignment Specfication](#specification.html) 
 
 <br />
 

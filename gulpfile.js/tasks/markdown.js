@@ -17,7 +17,7 @@ var config = require('../config/markdown');
 gulp.task('markdown', function() {
 	return gulp.src(config.src)
 		.pipe(frontMatter({property: 'frontMatter', remove: true}))
-		.pipe(remarkable({preset: 'full', remarkableOptions: { html: true, linkify: true, typographer: false} }))
+		.pipe(remarkable({preset: 'full', remarkableOptions: { html: true, linkify: true, typographer: true} }))
 		.pipe(wrap({src: config.template}, {base_url: global_config.base_url}))
 		.pipe(gulp.dest(config.dest))
 		.pipe(browserSync.reload({ stream:true }));

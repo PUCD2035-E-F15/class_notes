@@ -192,6 +192,8 @@ In this weeks assignment you'll be using the p5 library to create a drawing. p5 
 
 - [p5 Tutorials](http://p5js.org/tutorials/)
 
+- [Javascript and P5 at Khan Academy](https://www.khanacademy.org/computing/computer-programming/programming)
+- 
 - [Javascript @ Code Academy ](https://www.codecademy.com/tracks/javascript)
 
 - [Lynda.com](http://www.lynda.com/)

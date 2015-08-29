@@ -202,7 +202,7 @@ Chrome has built in developer tools. An important tool is the Javascript Console
 - [p5 Tutorials](http://p5js.org/tutorials/)
 
 - [Javascript and P5 at Khan Academy](https://www.khanacademy.org/computing/computer-programming/programming)
-- 
+
 - [Javascript @ Code Academy ](https://www.codecademy.com/tracks/javascript)
 
 - [Lynda.com](http://www.lynda.com/)

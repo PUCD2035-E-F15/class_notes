@@ -6,6 +6,12 @@ editor.$blockScrolling = Infinity;
 
 
 var script_name = window.location.search.substr(1);
+
+
+if (script_name == "") {
+	script_name = "template.js";
+}
+
 var jqxhr = $.ajax({
 	url: script_name,
 	success: function(source) {
@@ -14,7 +20,6 @@ var jqxhr = $.ajax({
 	},
 	dataType: "text"
 });
-
 
 
 

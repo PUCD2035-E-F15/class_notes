@@ -4,7 +4,7 @@ var os = require('os')
 var project = require('../../package.json')
 
 module.exports = {
-  url: 'http://jbakse.github.io/class_notes/',
+  url: 'http://pucd2035-e-f15.github.io/class_notes/',
   src: config.publicDirectory + '/**/*',
   ghPages: {
     // https://github.com/shinnn/gulp-gh-pages/issues/63

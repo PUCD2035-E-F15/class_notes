@@ -134,7 +134,12 @@ From the [p5js Homepage](http://p5js.org/):
 
 ## Programming with Javascript and p5.js
 
-### Required Software
+### Assignment One
+
+Go take a look at [Assignment One on Github](https://github.com/PUCD2035-E-F15/assignment_1). This assignment serves as an introduction to the the tools you will use in this class, and a starting point for exploring Javascript and p5. We are going to start this assignment in class today. You will continue working on it this week. It is due before the start of class next week.
+
+
+### Setting Up your Tools and Workspace
 
 We will be working with the following software. 
 
@@ -146,9 +151,9 @@ You will also need to set up an account on [Github](http://www.github.com)
 
 ### Introduction to Git and Github
 
-[Git](http://git-scm.com/) is a version control system. As you work on a project it will grow and change. Git keeps track of the changes you make to the files in your project. Keeping a history can be very valuable. With version control, you can review changes to a file over time and you can revert a single file or entire project to an earlier version is something goes wrong. Git also provides powerful tools for sharing your work with others and merging the work of teammates.
+[Git](http://git-scm.com/) is a version control system. As you work on a project it will grow and change. Git keeps track of the changes you make to the files in your project, keeping a valuable history. With version control, you can review changes to a file over time and you can revert a single file or entire project to an earlier version if (when) something goes wrong. Git also provides powerful tools for sharing your work with others and merging the work of teammates.
 
-[Github](http://www.github.com) is a service that hosts software projects that are managed with Git. Github builds on Git, adding features for collaborative coding such as bug tracking and code reviews. Github hosts a huge array of open-source projects and libraries.
+[Github](http://www.github.com) is a service that hosts software projects that use Git. Github builds on Git, adding features for collaborative coding such as bug tracking and code reviews. Github hosts a huge array of open-source and private projects and libraries.
 
 Normally, you use the Git software through its command line interface. If you are not comfortable using the command line, you won't be comfortable using Git in this way. [Github Desktop](https://desktop.github.com/) is a simple graphical user interface for Git, with added integration with Github. Github desktop isn't as powerful as the command line interface, but it can cover the basic workflows we'll use in class.
 
@@ -170,11 +175,13 @@ To make changes to the template and to create your program, you will use a text 
 
 ### The p5 Drawing API
 
-In this weeks assignment you'll be using the p5 library to create a drawing. p5 provides several commands for drawing shapes and working with color. You can view a full list of commands with descriptions and example code on the [p5 API reference](http://p5js.org/reference/).
+In this weeks assignment you'll be using the p5 library to create a drawing. p5 provides several commands for drawing shapes and working with color. You can view a full list of commands with descriptions and example code on the [p5 API reference](http://p5js.org/reference/). This reference includes sample code for each command, and allows you to edit the samples and see the results.
 
 <a href="./drawing.js" class="p5_example show-lab show-lab-link hidden">test_example</a>
 
-### Using `console.log()`
+### Using the Console and `console.log()`
+
+Chrome has built in developer tools. An important tool is the Javascript Console, which can be opened with Command-Option-J. Chrome will display errors it finds when running your Javascript here. You can also print your own messages to the console using `console.log()`.
 
 <a href="./console_log.js" class="p5_example show-code show-lab-link hidden">test_example</a>
 
@@ -182,9 +189,11 @@ In this weeks assignment you'll be using the p5 library to create a drawing. p5 
 ### Using Comments
 <a href="./comments.js" class="p5_example show-lab show-lab-link hidden">test_example</a>
 
-<!-- ############################################# -->
+### Prompt Generator
 
-## Week 1 Assignment
+<a href="./prompt.js" class="p5_example show-lab show-lab-link hidden">test_example</a>
+
+<!-- ############################################# -->
 
 ## Related Readings and Resources
 

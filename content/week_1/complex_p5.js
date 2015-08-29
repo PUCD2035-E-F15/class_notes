@@ -18,7 +18,9 @@ function setup() {
 }
 
 function draw() {
-	background(200, 200, 255);
+	background(125, 125, 125);
+
+	strokeWeight(4);
 
 	// tell each ball to move and draw itself
 	for (i = 0; i < balls.length; i++) {
@@ -47,6 +49,6 @@ Ball.prototype.step = function() {
 }
 
 Ball.prototype.draw = function() {
-	fill(200, 100, 100);
+	fill(225, 150, 150);
 	ellipse(this.x, this.y, 50, 50);
 }

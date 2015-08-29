@@ -5,7 +5,8 @@ function setup() {
 }
 
 function draw() {
-	background(200, 200, 255);
-	fill(200, 50, 60);
+	background(125, 125, 125);
+	fill(225, 150, 150);
+	strokeWeight(4);
 	ellipse(100, 100, 50, 50);
 }

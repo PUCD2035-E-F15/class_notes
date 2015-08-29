@@ -2,7 +2,7 @@
 
 ## [Class Syllabus](syllabus.html) • [Class Calendar](calendar.html) • [Class Topics](topics.html)
 
-#### [Sketch Lab](./p5_lab.html) • [Online Resources](#online_resources.html) • [Assignment Specfication](#specification.html) 
+#### [Sketch Lab](./p5_lab.html) • [Resources](./resources.html) • [Assignment Specfication](#specification.html) 
 
 <br />
 

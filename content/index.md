@@ -15,7 +15,7 @@
 
 
 <script type="text/javascript" src="javascript/p5.min.js"></script>
-<!-- <script type="text/javascript" src="background.js"></script> -->
+<script type="text/javascript" src="background_2.js"></script>
 
 | Unit 1 | Introduction to Programming in Javascript and p5
 | --- | ---

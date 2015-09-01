@@ -3,8 +3,8 @@
 
 // draws a grid of falling boxes
 
-var COLUMN_WIDTH = 50;
-var ROW_HEIGHT = 50;
+var COLUMN_WIDTH = 125;
+var ROW_HEIGHT = 125;
 
 var COLUMNS = 0;
 var ROWS = 0;
@@ -26,7 +26,7 @@ function setup() {
 }
 
 function draw() {
-	background(200, 255, 235);
+	background(255, 255, 255);
 	fill(255, 255, 255);
 	noStroke();
 
@@ -62,7 +62,7 @@ Tile.prototype.step = function() {
 		var r = red(this.color);
 		var g = green(this.color);
 		var b = blue(this.color);
-		this.color = color(r * 0.999, g * 0.999, b * 0.999);
+		this.color = color(r * 0.9, g * 0.9, b * 0.9);
 
 	}
 	if (mouseX > this.x && mouseX < this.x + COLUMN_WIDTH && mouseY > this.y && mouseY < this.y + ROW_HEIGHT) {

@@ -10,7 +10,12 @@
 	td:first-child {width: 100px;}
 	td:last-child {width: 100px;}
 	a[href^="#"]:not(.btn) { color: gray; text-decoration: none; }
+	canvas {position: fixed; top: 0; left: 0; z-index: -1;}
 </style>
+
+
+<script type="text/javascript" src="javascript/p5.min.js"></script>
+<!-- <script type="text/javascript" src="background.js"></script> -->
 
 | Unit 1 | Introduction to Programming in Javascript and p5
 | --- | ---

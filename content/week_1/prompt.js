@@ -10,8 +10,8 @@ var name_prefixes =
 		"Madam",
 		"Mister",
 		"Sir",
-		"The Lady",
-		"Doctor",
+		"Lady",
+		"Doctor"
 	];
 
 var primary_nouns =
@@ -19,7 +19,6 @@ var primary_nouns =
 		"Oak",
 		"Cotton",
 		"Stone",
-		"Earth",
 		"Moon",
 		"Sun",
 		"Star",
@@ -27,7 +26,13 @@ var primary_nouns =
 		"Clock",
 		"Midnight",
 		"Forgetful",
-		"Careful"
+		"Careful",
+		"Chestnut",
+		"Crab",
+		"Sky",
+		"Fox",
+		"Hound",
+		"Tree"
 	];
 
 var adjectives =
@@ -49,26 +54,46 @@ var adjectives =
 		"Little",
 		"Cowardly",
 		"Silver",
-		"Last"
+		"Last",
+		"Jolly",
+		"Festive",
+		"Gleeful",
+		"Enchanted",
+		"Wise",
+		"Wistful",
+		"Dark"
 	];
 
 var secondary_nouns =
 	[
 		"Riddles",
-		"Pests",
-		"Shadows",
 		"Parables",
-		"Beasts",
-		"Predicaments",
 		"Fables",
+		"Predicaments",
+		"Trials",
+		"Words",
+
+		"Promises",
+		"Lies",
+
+		"Pests",
+		"Beasts",
+		"Trolls",
+		"Shades",
+
+		"Shadows",
 		"Woods",
-		"Brothers",
-		"Sisters",
 		"Lands",
 		"Forests",
+		
+		"Brothers",
+		"Sisters",
+		"Children",
+
 		"Days",
 		"Nights",
-		"Years"
+		"Years",
+		"Hours"
 	];
 
 
@@ -76,6 +101,7 @@ var name_prefix = "";
 var primary_noun = "";
 var adjective = "";
 var secondary_noun = "";
+var templateID = 0;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -91,15 +117,24 @@ function draw() {
 
 	if (mouseIsPressed) {
 		pickWords();
+		templateID = floor(random(0, 2))
 	}
 
-	var prompt = name_prefix + " " + primary_noun + " and the " + adjective + " " + secondary_noun;
+	var prompt;
+	if (templateID == 0) {
+		prompt = name_prefix + " " + primary_noun + " and the " + adjective + " " + secondary_noun;
+	}
+	else {
+		prompt = "The " + adjective + " " + secondary_noun + " of " + name_prefix + " " + primary_noun;
+
+	}
 	text(prompt, width * .5, height * .5);
 }
 
-function pickWords(){
+function pickWords() {
 	name_prefix = name_prefixes[floor(random(name_prefixes.length))];
 	primary_noun = primary_nouns[floor(random(primary_nouns.length))];
 	adjective = adjectives[floor(random(adjectives.length))];
 	secondary_noun = secondary_nouns[floor(random(secondary_nouns.length))];
+
 }

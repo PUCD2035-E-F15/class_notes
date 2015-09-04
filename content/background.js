@@ -62,7 +62,7 @@ Tile.prototype.step = function() {
 		var r = red(this.color);
 		var g = green(this.color);
 		var b = blue(this.color);
-		this.color = color(r * 0.9, g * 0.9, b * 0.9);
+		this.color = color(r * 0.999, g * 0.999, b * 0.999);
 
 	}
 	if (mouseX > this.x && mouseX < this.x + COLUMN_WIDTH && mouseY > this.y && mouseY < this.y + ROW_HEIGHT) {

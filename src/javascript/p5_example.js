@@ -38,4 +38,12 @@ $(function() {
 		bar.insertBefore(e);
 	});
 
+	$(".p5_example.show-titled-lab-link").each(function(i, e) {
+		var bar = $("<div class='button-bar'>");
+		var link = $("<a class='lab-link btn btn-xs btn-primary'>Open "+$(e).text()+" in Editor</a>").attr("href", base_url + "p5_lab.html?" + e.href);
+		bar.append(link);
+
+		bar.insertBefore(e);
+	});
+
 });

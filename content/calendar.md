@@ -32,6 +32,8 @@
 
 ```
 Assignment: Basic Drawing 
+
+Explore the p5 library and create a drawing with code.
 ```
 
 
@@ -54,6 +56,8 @@ Assignment: Basic Drawing
 
 ```
 Assignment: Variable Drawing
+
+Use javascript to create a drawing that changes itself.
 ```
 
 
@@ -100,7 +104,7 @@ Assignment: Coding Challenges
 
 
 ```
-Assignment: Open Programming
+Assignment: Coding Challenges
 ```
 
 
@@ -117,6 +121,8 @@ Assignment: Open Programming
 
 ```
 Assignment: Interaction Charades Story Boarding
+
+Communicate an abstract concept through pure interaction.
 ```
 
 
@@ -132,6 +138,8 @@ Assignment: Interaction Charades Story Boarding
 
 ```
 Assignment: Interaction Charades Implementation
+
+Code an abstract interactive experience.
 ```
 
 
@@ -144,6 +152,8 @@ Assignment: Interaction Charades Implementation
 
 ```
 Assignment: Children's Book Interactive Illustration
+
+Combine text, image, and interaction to create a moment in a larger narrative.
 ```
 
 
@@ -156,6 +166,8 @@ Assignment: Children's Book Interactive Illustration
 
 ```
 Assignment: Crowd Source Project
+
+Contribute a piece to a project built by the entire class.
 ```
 
 
@@ -176,6 +188,8 @@ Assignment: Crowd Source Project
 
 ```
 Assignment: Network Assignment
+
+Create a project that retrieves and displays information in real time.
 ```
 
 

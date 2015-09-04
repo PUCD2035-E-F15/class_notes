@@ -1,6 +1,6 @@
 var config = require('./')
 
 module.exports = {
-  src: [config.sourceAssets + '/**/*', config.contentAssets + '/**/*.html', config.contentAssets + '/**/*.js'],
+  src: [config.sourceAssets + '/**/*', config.contentAssets + '/**/*.html', config.contentAssets + '/**/*.js', config.contentAssets + '/**/*.css'],
   dest: config.publicAssets
 }

@@ -1,0 +1,4 @@
+td:first-child {width: 100px;}
+td:last-child {width: 100px;}
+a[href^="#"]:not(.btn) { color: gray; text-decoration: none; }
+canvas {position: fixed; top: 0; left: 0; z-index: -1;}

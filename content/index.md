@@ -14,7 +14,7 @@
 | Unit 1 | Introduction to Programming in Javascript and p5
 | --- | ---
 | Week 1 | Intro to Programming | [class notes](week_1)
-| Week 2 | Intro to Javascript Syntax | [class notes](#)
+| Week 2 | Intro to Javascript Syntax | [class notes](week_2)
 | Week 3 | Interactivity and Animation in p5 | [class notes](#)
 | Week 4 | Javascript Functions and Data | [class notes](#)
 | Week 5 | Working with Images in p5 | [class notes](#)

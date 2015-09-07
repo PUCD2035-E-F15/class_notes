@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/bootswatch.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/atelier-health.light.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/main.css">
+	<script type="text/javascript">
+		var base_url = "/class_notes/";
+	</script>
+
+</head>
+<body>
+	<!-- title:  -->
+	<div class="container">
+		<h1>Week 2 Class Notes</h1>
+<p>Welcome Music: <a href="https://www.youtube.com/watch?v=jbkSRLYSojo">Hans Rosling’s 200 Countries, 200 Years, 4 Minutes</a></p>
+<h2>Bonus Quiz</h2>
+<h2>Homework Review</h2>
+<h1>Expecting Problems</h1>
+<p>When you try to run a program you are writing, there is a very good chance that something will go wrong. Your program won’t do what you expect. It quite possibly won’t do anything at all. This is the reality shared by all programmers, regardless of skill and experience. In fact, it is probably fair to say that the more experienced a programmer is, the more they learn to expect that their code won’t work completely. At least on the first run: writing a program is an iterative process: write some code, run the code, fix the problems, write some more code.</p>
+<p>We can divide most of the problems we’ll see in javascript programs into three broad categories: syntax errors, runtime errors, and logical errors.</p>
+<h3>Syntax Errors</h3>
+<p>In programming, syntax refers to the rules and grammar of a language. Any part of your code that doesn’t follow those rules is a <strong>syntax error</strong>. When your program has a syntax error, the computer can’t understand it and the program won’t run at all. Common syntax errors include missing punctuation, misspelled words, and mismatched braces <code>{}</code>.</p>
+<pre><code class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">draw</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">// the next line has a syntax error: there should be a comma between the zeros </span>
+    background(<span class="hljs-number">220</span>, <span class="hljs-number">0</span> <span class="hljs-number">0</span>);   
+    ellipse(<span class="hljs-number">320</span>, <span class="hljs-number">180</span>, <span class="hljs-number">100</span>, <span class="hljs-number">100</span>);
+}
+</code></pre>
+<h3>Runtime Errors</h3>
+<p>When your program is free of syntax errors, the computer will attempt to run it. While running the program, the computer may still find something it can’t understand. When this happens it is called a <strong>runtime error</strong>. When the computer encounters a runtime error, it will will stop running your program. One of the most common runtime errors is referring to something that doesn’t exist. For example, look at the following code. It follows the rules of the javascript language so it has no syntax errors, but the computer won’t be able to run this program because it doesn’t know what <code>circle</code> means. You could fix this problem by changing <code>circle</code> to <code>ellipse</code> because the p5 library <em>does</em> define an ellipse command.</p>
+<pre><code class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">draw</span>(<span class="hljs-params"></span>) </span>{
+    background(<span class="hljs-number">220</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+    <span class="hljs-comment">// the following line will cause a runtime error, because javascript doesn't know what "circle" means</span>
+    circle(<span class="hljs-number">320</span>, <span class="hljs-number">180</span>, <span class="hljs-number">100</span>, <span class="hljs-number">100</span>);
+}
+</code></pre>
+<h3>Logical errors</h3>
+<p>If your program has no syntax errors, and doesn’t encounter any runtime errors the computer will happily run it. Unfortunately, your program still may not do what you want. A computer can’t know what you <em>want</em> it to do, only what you <em>tell</em> it to do. Logical errors occur when there is a mismatch between what you want and what you write. Logical errors are often the most difficult to understand and fix. The following code is meant draw an ellipse on a red background. But when it is run, only the red background appears. Why don’t we see the ellipse? The computer <em>does</em> draw the ellipse, but the <code>background</code> command on the next line draws a red background that covers it up. This is a logical error: the computer is doing exactly what is told, but not what is wanted. Putting the <code>background</code> command before the <code>ellipse</code> command would fix the problem.</p>
+<pre><code class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">draw</span>(<span class="hljs-params"></span>) </span>{
+    ellipse(<span class="hljs-number">320</span>, <span class="hljs-number">180</span>, <span class="hljs-number">100</span>, <span class="hljs-number">100</span>);
+    background(<span class="hljs-number">255</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+}
+</code></pre>
+<h3>Bugs and Debugging</h3>
+<p>Problems in your code—syntax errors, runtime errors, and logical errors—are often called <strong>bugs</strong>. The process of finding and fixing bugs in code is called <strong>debugging</strong>. Much more programming time is spent debugging problems in code than initially writing it, and debugging is one of the most important programming skills.</p>
+<h3>Dealing with Syntax and Runtime Errors</h3>
+<p>When the computer encounters a syntax or runtime error it will report the error and stop running the program. When running Javascript programs in Chrome, you can see these messages in the Javascript console. To open the Javascript console, first go to the Chrome tab/window that is running your project and then press Command-Option-J. You will want to have the Javascript console open any time you are working on your code.</p>
+<p>The error message will contain a description of the error, the name of the file that contains the error, and the line number it occurs on. Read these messages carefully. They will often point you straight to any problems in your code. Sometimes, these reports be wrong or misleading. Syntax and runtime errors occur because the computer doesn’t understand something in your code, and if the computer doesn’t understand it can’t always explain why.</p>
+<p>Code in small increments. Try to run your program every time you make a change or add a line of code. If your project breaks, the problem is usually in the code you just changed and will be easy to spot.</p>
+<h3>Dealing with Logical Errors</h3>
+<p>Logical errors can be the hardest to debug. Remember the computer always does what you tell it to do. <strong>If your program does the wrong thing, it is because you told it to.</strong> To fix these kinds of problems you have to think carefully about what you want to do, and what your code actually describes.</p>
+<ul>
+<li>Think about what you want to happen carefully and specifically. Understand what you want your program to do.</li>
+<li>Look at the behavior of your program carefully and specifically. Understand what it is doing.</li>
+<li>Read the code carefully, line by line. Imagine what happens as each line of the program is executed.</li>
+<li>Find the exact spot where your program starts doing something you don’t expect. Take some time to understand why it does that.</li>
+<li>When you understand why your program does what it does, instead of what you want, make changes to fix the problem and run your code to see if your changes worked.</li>
+</ul>
+<h3>Using <code>console.log()</code></h3>
+<p>We have already seen that Chrome will display messages about syntax and runtime errors in the Javascript console. You can tell your program to display messages in the console using <code>console.log()</code>. <code>console.log()</code> is a powerful tool for debugging.</p>
+<pre><code class="language-javascript"><span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Hello!"</span>); <span class="hljs-comment">// displays "Hello!" in the console.</span>
+<span class="hljs-keyword">var</span> x = <span class="hljs-number">2</span> + <span class="hljs-number">2</span>;
+<span class="hljs-built_in">console</span>.log(x); <span class="hljs-comment">//displays "4"</span>
+</code></pre>
+<h1>Programming is Powerful</h1>
+<p>Your first drawing is a computer program, but it not a very powerful one. It is little more than data. As you learn more elements of Javascript syntax your programs will become more powerful very quickly. In fact <strong><a href="http://en.wikipedia.org/wiki/Turing_completeness">anything and everything</a></strong> that a computer program can do, can be programmed using just a few key parts of Javascript. The rest of Javascript makes complex programs easier to create, understand, and manage.</p>
+<p>This is a critical concept in computer science and programming. By composing a few small ideas—storing values and decision making—you can build very complex ideas.  Looking at it another way, no mater how complex a computer program is, it can be broken down to these basic elements.</p>
+<h3>Javascript vs HTML and CSS</h3>
+<p>Javascript is programming language. Programming languages allow you to describe a process that you want a computer to preform. With Javascript you can create interactive experiences.</p>
+<p>HTML is a content markup language. Markup languages allow you to represent text data in a way that can be understood by a computer. With HTML you can create documents to read.</p>
+<p>CSS is a style sheet language. CSS allows you to define the appearance of text documents that are marked up with HTML.</p>
+<p><strong>HTML and CSS documents are not programs, they are data.</strong></p>
+<p>On a web page the three are often used together: HTML is what is says, CSS is how it looks, Javascript is what it does. Most web pages use little or no javascript because they don’t really do anything.</p>
+<p>Programming languages like Javascript can be used to create entire applications without using languages like HTML and CSS. Mobile and desktop applications, video games, hardware interfaces, interactive installations, and some highly interactive websites are created in this way.</p>
+<h3>A Tour of the Javascript Language</h3>
+<table>
+<thead>
+<tr><th>What to Know</th><th>What to Do</th></tr>
+</thead>
+<tbody>
+<tr><td>values</td><td>operators</td></tr>
+<tr><td>literals</td><td>expressions</td></tr>
+<tr><td>variables</td><td>statements</td></tr>
+<tr><td>arrays</td><td>control structures</td></tr>
+<tr><td>data objects</td><td>functions</td></tr>
+</tbody>
+</table>
+<table>
+<tr><th>What to Know + What to Do</th></tr>
+<tr><td>Object Oriented Programming</td></tr>
+</table>
+<h3>Values</h3>
+<p>Values are pieces of data. In Javascript, values belong to one of these types:</p>
+<ul>
+<li>Numbers (<code>2</code>, <code>30</code>, <code>-2.4</code>)</li>
+<li>Strings (<code>&quot;Hello, World.&quot;</code>, <code>&quot;red&quot;</code>)</li>
+<li>Booleans (<code>true</code> and <code>false</code>)</li>
+<li>Functions</li>
+<li>Objects</li>
+</ul>
+<p>We’ll be using numbers, strings, and booleans right away. We’ll get to function and object values later.</p>
+<h3>Literals</h3>
+<p>Literals are values that appear directly in the text of the program. In this example the 50s and 100s are literal values.</p>
+<pre><code class="language-javascript">ellipse(<span class="hljs-number">50</span>, <span class="hljs-number">50</span>, <span class="hljs-number">100</span>, <span class="hljs-number">100</span>);
+</code></pre>
+<h3>Variables</h3>
+<p>Variables are named values in your program. Once you assign a value to a variable you can use the variables name to reference the value. Variables are called variables because their values can be changed. The value won’t change unless you (or something in your code) changes it. In the following example, <code>diameter</code> is a variable.</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">var</span> diameter = <span class="hljs-number">50</span>;
+ellipse(<span class="hljs-number">10</span>, <span class="hljs-number">10</span>, diameter, diameter);
+diameter = <span class="hljs-number">10</span>;
+ellipse(<span class="hljs-number">100</span>, <span class="hljs-number">100</span>, diameter, diameter);
+</code></pre>
+<h3>Arrays</h3>
+<p>An Array is a list of values. In the following example <code>scores</code> is a variable who’s value is an array.</p>
+<pre><code>var scores = [<span class="hljs-number">30</span>, <span class="hljs-number">20</span>, <span class="hljs-number">22</span>];
+</code></pre>
+<h3>Data Objects</h3>
+<p>An Object is a collection of named values. In the following example <code>player</code> is a variable who’s value is an object.</p>
+<pre><code>var player = {age: <span class="hljs-number">20</span>, score: <span class="hljs-number">100</span>};
+</code></pre>
+<h3>Operators</h3>
+<p>Operators are used to combine, compare, and assign values. Some common operators include:</p>
+<table>
+<thead>
+<tr><th>Operator</th><th>Name</th><th>Use</th></tr>
+</thead>
+<tbody>
+<tr><td>=</td><td>Assignment</td><td>Assign a value to a variable. <code>x = 3</code></td></tr>
+<tr><td>+</td><td>Addition</td><td>Add two values <code>3 + 2</code>, <code>3 + x</code></td></tr>
+<tr><td>-</td><td>Subtraction</td><td>Subtract one value from another <code>3 - 2</code>, <code>3 - x</code></td></tr>
+<tr><td>*</td><td>Multiplication</td><td>Multiply two values <code>3 * 2</code>, <code>3 * x</code></td></tr>
+<tr><td>/</td><td>Division</td><td>Divide on value by another <code>3 / 2</code>, <code>3 / x</code></td></tr>
+<tr><td>===</td><td>Strict Equal</td><td>Compare too numbers to see if they are equal <code>score === 100</code></td></tr>
+<tr><td>&lt;</td><td>Less than</td><td>Determine if one value is less than another <code>score &lt; 100</code></td></tr>
+</tbody>
+</table>
+<h3>Expressions</h3>
+<p>An expression is a unit of code that resolves to a single value.</p>
+<ul>
+<li><code>2+2</code> is an expression that resolves to <code>4</code>.</li>
+<li><code>3 &lt; 10</code> resolves to <code>true</code>.</li>
+</ul>
+<h3>Statements</h3>
+<p>A statement is a complete program instruction. Statements are separated with semicolons (<code>;</code>) and usually appear on their own line. Javascript will sometimes allow you skip semicolons, but it is a good idea to include them. The following example has three statements.</p>
+<pre><code class="language-javascript">background(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+ellipse(<span class="hljs-number">10</span>, <span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">20</span>);
+rect(<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>);
+</code></pre>
+<h3>Control Structures</h3>
+<p>By default, every line of your program is executed from top to bottom. Control structures allow you to control which statements are executed and how many times. Control structures allow programs to do powerful things like:</p>
+<p><strong>Make Decisions</strong>: Conditional Statements</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">if</span> (score &lt; <span class="hljs-number">100</span>) {
+    background(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+} <span class="hljs-keyword">else</span> {
+    background(<span class="hljs-number">100</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+}
+</code></pre>
+<p><strong>Repeat</strong>: Loops</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> step = <span class="hljs-number">0</span>; step &lt; <span class="hljs-number">5</span>; step++) {
+    ellipse(<span class="hljs-number">100</span>, step*<span class="hljs-number">100</span>, <span class="hljs-number">50</span>, <span class="hljs-number">50</span>);
+}
+</code></pre>
+<h3>Functions</h3>
+<p>A javascript function is a named procedure, a collection of statements that performs a task. A function can be thought of as a small program-inside-a-program.</p>
+<h3>Read More Online</h3>
+<p>You can find lots of resources online that describe the syntax and higher-level concepts of Javascript. MDN has a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">great guide to javascript</a>, a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">single page overview</a>, and a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">detailed reference of the language</a>. There are <a href="http://eloquentjavascript.net/">entire, free books</a> online. The <a href="https://www.khanacademy.org/computing/computer-programming/programming">Khan Academy Intro to JS and p5</a> provides a series of screen-cast tutorials.</p>
+<h1>Hands On Demos</h1>
+<h2>Tool Upgrade</h2>
+<h3>The Javascript Console</h3>
+<p>Don’t forget to open the Chrome Javascript console with Command-Option-J. This is where Chrome will report Javascript errors, and you can print messages to th console with <code>console.log()</code>.</p>
+<h3>Live Reload</h3>
+<p>Switching to the browser and reloading after every change isn’t hard, but it can grow old fast. Install the Atom <code>liverelad</code> package to automatically reload the browser every time you save.</p>
+<h3>Syntax Checking</h3>
+<p>Install the <code>linter</code> and <code>linter-jshint</code> package to allow Atom to check your syntax as you work. Syntax errors will be highlighted in your editor, before you even try to run your work in the browser.</p>
+<h3>Syntax Formatting</h3>
+<p>Install the <code>jsformat</code> package to automatically reformat your code as you work. JSFormat will make sure that little things indentation and spacing are consistent. This will make your code easier to read and maintain.</p>
+<h2>Working with Variables</h2>
+<p>Variables are named values in your program. There are many benefits to variables:</p>
+<ul>
+<li>Variables allow you to create general, reusable code.</li>
+<li>Variables let you store a value so you can use it later.</li>
+<li>Variables let you work with values that you don’t know when creating your program.</li>
+<li>Naming values in your code makes it easier to understand.</li>
+<li>Because variables can change you can create a single piece of code that does multiple things. For example by combining variables and loops a single ellipse command can draw several ellipses in different places.</li>
+</ul>
+<h3>Naming Variables</h3>
+<blockquote>
+<p>There are only two hard things in Computer Science: cache invalidation and naming things. - Phil Karlton</p>
+</blockquote>
+<p>Naming your variables well is important to writing readable code. First, you have to use names that are legal. Variable names can contain uppercase and lowercase letters, numbers, <code>_</code> and <code>$</code>. They may not start with a letter.</p>
+<p>Second, it is a good idea to follow some common conventions. Avoid numbers, <code>_</code>, <code>$</code> in your variable names, because these symbols are often used as informal hints about variables in some libraries. Use lowercase letters for your variable names. If your name is made of multiple words, begin the second and remaining words with a single uppercase letter. This style is called <code>cammelCase</code>.</p>
+<p>Third, choose names that clearly describe the purpose of the variable. Good variable names are usually nouns.</p>
+<table>
+<thead>
+<tr><th>Name</th><th>Note</th></tr>
+</thead>
+<tbody>
+<tr><td>highScore</td><td>legal, camel case, descriptive</td></tr>
+<tr><td>high_score</td><td>doesn’t follow camel case convention</td></tr>
+<tr><td>myVar</td><td>not descriptive</td></tr>
+<tr><td>2ndPlace</td><td>illegal: starts with a number</td></tr>
+<tr><td>$score</td><td>legal, but avoid <code>$</code> and <code>_</code> as these are often used to indicate special</td></tr>
+</tbody>
+</table>
+<h3>Declaring Variables</h3>
+<p>Before you can use a variable you must (well, should) declare it. Declaring a variable announces that you will use it and establishes its name. You use the <code>var</code> keyword to declare a variable.</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">var</span> width;
+<span class="hljs-keyword">var</span> height;
+</code></pre>
+<h3>Assigning Values to Variables</h3>
+<p>You can assign a value to a variable using the assignment operator (<code>=</code>).</p>
+<pre><code class="language-javascript">width = <span class="hljs-number">100</span>;
+</code></pre>
+<p>You can assign a value to a variable right when you declare it. It is a good practice to do so.</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">var</span> width = <span class="hljs-number">100</span>;
+</code></pre>
+<p>If you declare a variable but don’t assign a value to it, the variable’s value will be a special value called <code>undefined</code>.</p>
+<h3>Evaluating Variables</h3>
+<p>To access the value of a variable, you simply use it’s name anywhere a value is expected.</p>
+<pre><code class="language-javascript">rect(<span class="hljs-number">10</span>, <span class="hljs-number">10</span>, width, height);
+</code></pre>
+<h3>Variable Scope</h3>
+<p>Variables have a property called scope that describes where in the program the variable is valid. If you declare a variable outside of a function it will be global, and can be accessed anywhere in your program. If you declare it inside a function, like <code>setup()</code> or <code>draw()</code>, it will only exist within that function.</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">var</span> width1 = <span class="hljs-number">100</span>;
+<span class="hljs-keyword">void</span> setup() {
+    <span class="hljs-keyword">var</span> width2 = <span class="hljs-number">200</span>;
+}
+<span class="hljs-keyword">void</span> draw() {
+    rect(<span class="hljs-number">10</span>, <span class="hljs-number">10</span>, width1, <span class="hljs-number">10</span>); <span class="hljs-comment">// works, width 1 is global</span>
+    rect(<span class="hljs-number">100</span>, <span class="hljs-number">100</span>, width2, <span class="hljs-number">10</span>); <span class="hljs-comment">// breaks, width 2 only exists inside setup</span>
+}
+</code></pre>
+<h3>Variable Example</h3>
+<p><a href="./variables.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h3>More Variables</h3>
+<p><a href="./variables_2.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h2>Working with Conditional Statements</h2>
+<p>So far the statements in our draw function have been run from top to bottom, each line executing once. <strong>Flow control</strong> statements allow you to structure your program into parts that can be executed conditionally or repeatedly. We will look at conditional statements today, and loops next week.</p>
+<p>Conditional statements are powerful; they allow your code to make decisions.</p>
+<p>This is the general syntax for a conditional statement:</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">if</span> ( condition ) {
+    <span class="hljs-comment">// do this if the test succeeds</span>
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// or do this instead</span>
+}
+</code></pre>
+<p>This example tests the value of <code>drawEllipse</code> before drawing the ellipse. If <code>drawEllipse</code> is not true, the ellipse command will not be executed.</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">if</span> (drawEllipse === <span class="hljs-literal">true</span>) {
+    ellipse(<span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>);
+}
+</code></pre>
+<h3>Conditions</h3>
+<p>The <strong>condition</strong> is the test the program uses to decide whether to run the code. The condition can be a literal value, a variable, or an expression. Javascript will evaluate the condition and if the result is <code>true</code> (or a non-zero number or other value that is considered logically true) the code in the following block is executed. If the result is <code>false</code> (or a value that is considered logically false) the code is not run.</p>
+<p>Comparison operators like ===, !==, &lt;, &gt;, &lt;=, and &gt;= are used to compare values.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators">Comparison Operators @ MDN</a></p>
+<h3>Blocks</h3>
+<p>A <strong>block</strong> is a group of statements that are executed in together, in order. Blocks in javascript start with <code>{</code> and end with <code>}</code>. All of the statements in the block following an <code>if</code> statement will be executed, or not, together.</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">if</span> (drawEllipses === <span class="hljs-literal">true</span>) {
+    ellipse(<span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>);
+    ellipse(<span class="hljs-number">220</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>);
+    ellipse(<span class="hljs-number">240</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>);
+}
+</code></pre>
+<h3>Else</h3>
+<p>You can optionally include an <code>else</code> block after your <code>if</code> block. The else block is executed if, and only if, the condition is false. This example will draw either an ellipse or a rectangle, depending on the value of <code>drawEllipse</code>:</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">if</span> (drawEllipse === <span class="hljs-literal">true</span>) {
+    ellipse(<span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>);
+} <span class="hljs-keyword">else</span> {
+    rect(<span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>);
+}
+</code></pre>
+<h2>Using P5 <code>random()</code></h2>
+<p>The p5 <code>random()</code> command will pick a random number. The number can then be assigned to a variable or used anywhere you need a number. When you use random you can provide a range you want the random number to be in. The number won’t be constrained to integers.</p>
+<p><a href="http://p5js.org/reference/#/p5/random">random() @ p5.js Reference</a></p>
+<pre><code class="language-javascript">a = random(<span class="hljs-number">10</span>); <span class="hljs-comment">// a number between 0 and 10</span>
+b = random(<span class="hljs-number">10</span>, <span class="hljs-number">20</span>); <span class="hljs-comment">// a number between 10 and 20</span>
+</code></pre>
+<h3>A Random Example</h3>
+<p><a href="./random.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h2>Using P5 <code>noLoop()</code></h2>
+<p>The p5 <code>noLoop()</code> command tell p5 you only want to draw once.</p>
+<p><a href="./noLoop.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h2>Pulling it Together</h2>
+<p><a href="./combined.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h1>Assignment 2</h1>
+<h1>Extra Credit</h1>
+
+	</div>
+	
+	<script type="text/javascript" src="/class_notes/javascript/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/highlight.pack.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/p5_example.js"></script>
+	<script type="text/javascript">
+		$( function() {
+			$("table").addClass("table table-bordered");
+		});
+	</script>
+</body>
+</html>

@@ -8,7 +8,7 @@ editor.$blockScrolling = Infinity;
 var script_name = window.location.search.substr(1);
 
 
-if (script_name == "") {
+if (script_name === "") {
 	script_name = "template.js";
 }
 
@@ -22,13 +22,19 @@ var jqxhr = $.ajax({
 });
 
 
+$('#preview').load( function() {
+	var source = editor.getValue();
+	var frame = $('#preview')[0];
+	if (frame.contentWindow.take) {
+		frame.contentWindow.take(source);
+	}
+});
 
 function inject() {
-	var source = editor.getValue();
-	var newUrl = "p5_view.html?" + "data:script/javascript;base64," + btoa(source);
+	// var source = editor.getValue();
+	// var newUrl = "p5_view.html?" + "data:script/javascript;base64," + btoa(source);
 	var frame = $('#preview')[0];
-
-	frame.contentWindow.location.replace(newUrl);
+	frame.contentWindow.location.replace("p5_view2.html");
 }
 
 

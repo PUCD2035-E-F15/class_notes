@@ -423,3 +423,8 @@ The p5 `noLoop()` command tell p5 you only want to draw once.
 
 
 # Extra Credit
+
+
+# Interesting
+
+[Making Things with Math](http://acko.net/tv/wdcode/)

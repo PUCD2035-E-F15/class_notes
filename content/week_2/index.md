@@ -1,9 +1,14 @@
 
 # Week 2 Class Notes
 
-Welcome Music: [Hans Rosling's 200 Countries, 200 Years, 4 Minutes](https://www.youtube.com/watch?v=jbkSRLYSojo)
+Opening Video: [Hans Rosling's 200 Countries, 200 Years, 4 Minutes](https://www.youtube.com/watch?v=jbkSRLYSojo)
 
-## Bonus Quiz
+<!-- ## Bonus Quiz -->
+
+
+<!-- <a href="./quiz.js" class="p5_example show-preview hidden">test_example</a> -->
+
+<!-- Open the [Sketch Lab](http://pucd2035-e-f15.github.io/class_notes/p5_lab.html) and write a sketch that (roughly) recreates the image above. Due at 3:55pm. -->
 
 ## Homework Review
 
@@ -228,24 +233,6 @@ You can find lots of resources online that describe the syntax and higher-level 
 
 # Hands On Demos
 
-## Tool Upgrade
-
-### The Javascript Console
-
-Don't forget to open the Chrome Javascript console with Command-Option-J. This is where Chrome will report Javascript errors, and you can print messages to th console with `console.log()`.
-
-### Live Reload
-
-Switching to the browser and reloading after every change isn't hard, but it can grow old fast. Install the Atom `liverelad` package to automatically reload the browser every time you save.
-
-### Syntax Checking
-
-Install the `linter` and `linter-jshint` package to allow Atom to check your syntax as you work. Syntax errors will be highlighted in your editor, before you even try to run your work in the browser.
-
-### Syntax Formatting
-
-Install the `jsformat` package to automatically reformat your code as you work. JSFormat will make sure that little things indentation and spacing are consistent. This will make your code easier to read and maintain.
-
 ## Working with Variables
 
 Variables are named values in your program. There are many benefits to variables:
@@ -420,11 +407,42 @@ The p5 `noLoop()` command tell p5 you only want to draw once.
 
 
 # Assignment 2
+This week's asignment is to create a program that generates a drawing that changes everytime the program is run. [Here are the details.](https://github.com/PUCD2035-E-F15/assignment_2/blob/master/prompt.md)
+
+[Project Template](https://github.com/PUCD2035-E-F15/assignment_2)
+
+
+
+
+## Tool Upgrade
+
+### The Javascript Console
+
+Don't forget to open the Chrome Javascript console with Command-Option-J. This is where Chrome will report Javascript errors, and you can print messages to th console with `console.log()`.
+
+### Live Reload
+
+Switching to the browser and reloading after every change isn't hard, but it can grow old fast. Install the Atom `liverelad` package to automatically reload the browser every time you save.
+
+### Syntax Checking
+
+Install the `linter` and `linter-jshint` package to allow Atom to check your syntax as you work. Syntax errors will be highlighted in your editor, before you even try to run your work in the browser.
+
+### Syntax Formatting
+
+Install the `jsformat` package to automatically reformat your code as you work. JSFormat will make sure that little things indentation and spacing are consistent. This will make your code easier to read and maintain.
+
 
 
 # Extra Credit
 
+From the [syllabus](../syllabus.html): 
+
+Extra Credit will be given for formal contributions to the class. One way to contribute is to provide corrections, enhancements, or additions to the class materials and website. For example, spelling and grammar corrections submitted through a pull request will earn a small amount of credit. More credit can be earned by adding content to class notes or resource pages, authoring small tutorials that benefit the class, etc.
+
+Both the assignments and the class site (this site) are hosted on github. The class notes are written in Markdown (like the README.md file in the assignment templates) and you can look at them in the class_notes repository. Github gives you tools to fork the repo, edit the problem and suggest the change be added to the offical repo (a pull request). Using Githubs web-based editor, you can complete the whole process without even cloning the repo to your computer.
 
 # Interesting
 
-[Making Things with Math](http://acko.net/tv/wdcode/)
+- [Making Things with Math](http://acko.net/tv/wdcode/)
+- [Mike Bostock of NYT and D3 Fame AMA](https://www.reddit.com/r/dataisbeautiful/comments/3k3if4/hi_im_mike_bostock_creator_of_d3js_and_a_former/)

@@ -6,7 +6,7 @@
 function setup() {
 	createCanvas(640, 480);
 	noStroke();
-	noLoop();
+	
 }
 
 function draw() {
@@ -14,7 +14,7 @@ function draw() {
 	var dayNight = random(1);
 
 	// draw background
-	if (dayNight < .5) {
+	if (dayNight < 0.5) {
 		// day
 		background(150, 150, 230);
 		fill(90, 90, 40);
@@ -28,13 +28,13 @@ function draw() {
 
 
 	// draw sun
-	if (dayNight < .5) {
+	if (dayNight < 0.5) {
 		fill(250, 200, 0);
 		ellipse(random(320, 640), random(0, 280), 100, 100);
 	}
 
 	// draw stars
-	if (dayNight > .5) {
+	if (dayNight > 0.5) {
 		fill(250, 250, 250);
 		var starSize;
 		starSize = random(4, 8);
@@ -55,7 +55,7 @@ function draw() {
 
 	// draw tree
 	var treeX = random(0, 320);
-	if (dayNight < .5) {
+	if (dayNight < 0.5) {
 		fill(0, 150, 0);
 	} else {
 		fill(0, 80, 0);
@@ -64,5 +64,6 @@ function draw() {
 	triangle(treeX, 240, treeX - 30, 325, treeX + 30, 325);
 
 
+	noLoop();
 	
 }

@@ -3,7 +3,7 @@
 function setup() {
 	createCanvas(640, 480);
 	noStroke();
-	noLoop();
+	
 }
 
 function draw() {
@@ -17,4 +17,6 @@ function draw() {
 	var x = random(-10, 10);
 	fill(0);
 	ellipse(440 + x, 240, 100, 100);
+
+	noLoop();
 }

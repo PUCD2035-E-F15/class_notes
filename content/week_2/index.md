@@ -3,14 +3,15 @@
 
 Opening Video: [Hans Rosling's 200 Countries, 200 Years, 4 Minutes](https://www.youtube.com/watch?v=jbkSRLYSojo)
 
-<!-- ## Bonus Quiz -->
+## Bonus Sketch
 
+<a href="./quiz.js" class="p5_example show-preview hidden">test_example</a>
 
-<!-- <a href="./quiz.js" class="p5_example show-preview hidden">test_example</a> -->
-
-<!-- Open the [Sketch Lab](http://pucd2035-e-f15.github.io/class_notes/p5_lab.html) and write a sketch that (roughly) recreates the image above. Due at 3:55pm. -->
+Open the [Sketch Lab](http://pucd2035-e-f15.github.io/class_notes/p5_lab.html) and write a sketch that (roughly) recreates the image above. Embellish as you like. Due at 3:55 pm.
 
 ## Homework Review
+
+[Week 1 Class Work](../week_1/class_work.html)
 
 # Expecting Problems
 

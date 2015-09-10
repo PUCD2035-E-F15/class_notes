@@ -60,9 +60,9 @@
 
 ### Hyeon Beom Lee
 
-<!-- [NAME on Github](https://github.com/NAME) -->
+[kevinhb92 on Github](https://github.com/kevinhb92)
 
-<!-- ![Screengrab](https://github.com/NAME/assignment_1/raw/master/output.png) -->
+![Screengrab](https://github.com/kevinhb92/assignment_1/raw/master/output.png)
 
 
 

@@ -86,7 +86,7 @@
 
 [Bateelsaber on Github](https://github.com/Bateelsaber)
 
-![Screengrab](https://github.com/Bateelsaber/assignment_1/raw/master/output.png)
+![Screengrab](https://github.com/Bateelsaber/assignment_1/raw/master/Beasts.png)
 
 
 
@@ -102,7 +102,7 @@
 
 [brinnathomsen on Github](https://github.com/brinnathomsen)
 
-![Screengrab](https://github.com/brinnathomsen/assignment_1/raw/master/output.png)
+![Screengrab](https://github.com/brinnathomsen/assignment_1/raw/master/brinnathomsen.png)
 
 
 

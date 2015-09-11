@@ -20,9 +20,9 @@
 
 ### Natasha Dewitz
 
-[natwhereuat on Github](https://github.com/natwhereuat)
+[natdew on Github](https://github.com/natdew)
 
-![Screengrab](https://github.com/natwhereuat/assignment_1/raw/master/output.png)
+![Screengrab](https://github.com/natdew/assignment_1/raw/master/output.png)
 
 
 
@@ -108,17 +108,17 @@
 
 ### Delong Xiao
 
-<!-- [NAME on Github](https://github.com/NAME) -->
+[delongxiao on Github](https://github.com/delongxiao)
 
-<!-- ![Screengrab](https://github.com/NAME/assignment_1/raw/master/output.png) -->
+![Screengrab](https://github.com/delongxiao/assignment_1/raw/master/output.png)
 
 
 
 ### Jun Hyuk Yang
 
-<!-- [NAME on Github](https://github.com/NAME) -->
+[didehdro4 on Github](https://github.com/didehdro4)
 
-<!-- ![Screengrab](https://github.com/NAME/assignment_1/raw/master/output.png) -->
+![Screengrab](https://github.com/didehdro4/assignment_1/raw/master/output.png)
 
 
 

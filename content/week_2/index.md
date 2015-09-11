@@ -20,6 +20,7 @@ When you try to run a program you are writing, there is a very good chance that 
 We can divide most of the problems we'll see in javascript programs into three broad categories: syntax errors, runtime errors, and logical errors. 
 
 ### Syntax Errors
+
 In programming, syntax refers to the rules and grammar of a language. Any part of your code that doesn't follow those rules is a **syntax error**. When your program has a syntax error, the computer can't understand it and the program won't run at all. Common syntax errors include missing punctuation, misspelled words, and mismatched braces `{}`.  
 
 ```javascript
@@ -109,6 +110,20 @@ On a web page the three are often used together: HTML is what is says, CSS is ho
 
 Programming languages like Javascript can be used to create entire applications without using languages like HTML and CSS. Mobile and desktop applications, video games, hardware interfaces, interactive installations, and some highly interactive websites are created in this way. 
 
+### Learning to Program
+
+Learning how to program, and learning a programming language are very different things. One of the best ways to learn both is to start small, read example code, and to play. 
+
+Experiment with changing example code:
+
+- Run the code, see what it does
+- Read the code, see try to understand how it works
+- Make a small change, guess what will happen
+- Run the changed code, see what it does
+
+This process is also the core of writing new programs. 
+
+You have already created your first program. We did not cover any of the syntax rules of javascript. To create your program you relied on copying the patterns in example code and reference documentation. This is one of the most effective ways of getting used to the syntax of a language. In addition to this, we are going to start talking about syntax a little more formally this week.
 
 ### A Tour of the Javascript Language
 
@@ -445,5 +460,6 @@ Both the assignments and the class site (this site) are hosted on github. The cl
 
 # Interesting
 
+- [What is Code](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
 - [Making Things with Math](http://acko.net/tv/wdcode/)
 - [Mike Bostock of NYT and D3 Fame AMA](https://www.reddit.com/r/dataisbeautiful/comments/3k3if4/hi_im_mike_bostock_creator_of_d3js_and_a_former/)

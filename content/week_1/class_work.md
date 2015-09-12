@@ -4,9 +4,9 @@
 
 ### Wendy Ching
 
-<!-- [NAME on Github](https://github.com/NAME) -->
+[wendellaching on Github](https://github.com/wendellaching)
 
-<!-- ![Screengrab](https://github.com/NAME/assignment_1/raw/master/output.png) -->
+![Screengrab](https://github.com/wendellaching/assignment_1/raw/master/screengrab_1.png)
 
 
 
@@ -28,9 +28,9 @@
 
 ### Natalia Flores Zalles
 
-<!-- [NAME on Github](https://github.com/NAME) -->
+[natwhereuat on Github](https://github.com/natwhereuat)
 
-<!-- ![Screengrab](https://github.com/NAME/assignment_1/raw/master/output.png) -->
+![Screengrab](https://github.com/natwhereuat/assignment_1/raw/master/output.png)
 
 
 
@@ -38,7 +38,7 @@
 
 [jjaqkho on Github](https://github.com/jjaqkho)
 
-![Screengrab](https://github.com/jjaqkho/assignment_1/raw/master/output.png)
+![Screengrab](https://github.com/jjaqkho/assignment_1/raw/master/Screenshot.png)
 
 
 
@@ -54,7 +54,7 @@
 
 [benalang on Github](https://github.com/benalang)
 
-![Screengrab](https://github.com/benalang/assignment_1/raw/master/output.png)
+![Screengrab](https://github.com/benalang/assignment_1/raw/master/screenshot.png)
 
 
 
@@ -76,9 +76,9 @@
 
 ### Tatyana Palacios
 
-<!-- [NAME on Github](https://github.com/NAME) -->
+[palat029 on Github](https://github.com/palat029)
 
-<!-- ![Screengrab](https://github.com/NAME/assignment_1/raw/master/output.png) -->
+![Screengrab](https://github.com/palat029/assignment_1/raw/master/DoctorStar.png)
 
 
 
@@ -86,15 +86,15 @@
 
 [Bateelsaber on Github](https://github.com/Bateelsaber)
 
-![Screengrab](https://github.com/Bateelsaber/assignment_1/raw/master/Beasts.png)
+![Screengrab](https://github.com/Bateelsaber/assignment_1/raw/master/output.png)
 
 
 
 ### Dominic Siy
 
-<!-- [NAME on Github](https://github.com/NAME) -->
+[nicosiy on Github](https://github.com/nicosiy)
 
-<!-- ![Screengrab](https://github.com/NAME/assignment_1/raw/master/output.png) -->
+![Screengrab](https://github.com/nicosiy/assignment_1/raw/master/output.png)
 
 
 

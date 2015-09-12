@@ -9,12 +9,12 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 
 <script type="text/javascript" src="javascript/p5.min.js"></script>
-<script type="text/javascript" src="background_1.js"></script>
+<script type="text/javascript" src="background_2.js"></script>
 
 | Unit 1 | Introduction to Programming in Javascript and p5
 | --- | ---
 | Week 1 | Intro to Programming | [class notes](week_1) [class work](week_1/class_work.html)
-| Week 2 | Intro to Javascript Syntax | [class notes](week_2)
+| Week 2 | Intro to Javascript Syntax | [class notes](week_2) [class work](week_2/class_work.html)
 | Week 3 | Interactivity and Animation in p5 | [class notes](#)
 | Week 4 | Javascript Functions and Data | [class notes](#)
 | Week 5 | Working with Images in p5 | [class notes](#)
@@ -37,3 +37,4 @@
 
 
 <a href="background_1.js" class="p5_example show-titled-lab-link hidden">background_1.js</a>
+<a href="background_2.js" class="p5_example show-titled-lab-link hidden">background_2.js</a>

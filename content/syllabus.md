@@ -28,29 +28,29 @@ The following outlines the main topics to be presented in each class. This may b
 
 <style type="text/css"> td:first-child {width: 100px;}</style>
 
-| Unit 1 | Introduction to Programming in Javascript and p5
-| --- | ---
-| Week 1 | Intro to Programming
-| Week 2 | Intro to Javascript Syntax
-| Week 3 | Interactivity and Animation in p5
-| Week 4 | Javascript Functions and Data
-| Week 5 | Working with Images in p5
+| Unit 1 | Introduction to Programming in Javascript and p5 | Assignment
+| --- | --- | ---
+| Week 1 | Intro to Programming | Basic Drawing
+| Week 2 | Intro to Javascript Syntax | Variable Drawing
+| Week 3 | Interactivity and Animation in p5 | Coding Challenges
+| Week 4 | Javascript Functions and Data | Coding Challenges
+| Week 5 | Working with Images in p5 | Coding Challenges
 
-| Unit 2 | Creative Computing Projects
-| --- | ---
-| Week 6 | Intro to Interaction Design
-| Week 7 | Programming Interactions
-| Week 8 | Interaction and Narrative
-| Week 9 | Collaborative Programming
-| Week 10 | Programming for the Web
+| Unit 2 | Creative Computing Projects | Assignment
+| --- | --- | ---
+| Week 6 | Intro to Interaction Design | Interaction Story Boarding
+| Week 7 | Programming Interactions | Implementing Interaction
+| Week 8 | Interaction and Narrative | Children's Book Interactive
+| Week 9 | Collaborative Programming | Crowd Source Project
+| Week 10 | Programming for the Web | Networked Code
 
-| Unit 3 | Advanced Topics and Final
-| --- | ---
-| Week 11 | Advanced Topics
-| Week 12 | Creating Proposals
-| Week 13 | Creating Proofs of Concept
-| Week 14 | WIP Critique
-| Week 15 | Final Critique
+| Unit 3 | Advanced Topics and Final | Assignment
+| --- | --- | ---
+| Week 11 | Advanced Topics | Final Concepting
+| Week 12 | Creating Proposals | Final Proposal
+| Week 13 | Creating Proofs of Concept | Final POC
+| Week 14 | WIP Critique | Final Review
+| Week 15 | Final Critique | Final Crit
 
 
 ## Learning Outcomes
@@ -86,12 +86,31 @@ Assignments will be graded using the following rough guide. Some assignments are
 | B | 3 | Good Creative/Technical Exploration
 | A | 4 | Very Good Creative/Technical Exploration
 
+#### Grade of W
+
+The grade of W may be issued by the Office of the Registrar to a student who officially withdraws from a course within the applicable deadline. There is no academic penalty, but the grade will appear on the student transcript. A grade of W may also be issued by an instructor to a graduate student (except at Parsons and Mannes) who has not completed course requirements nor arranged for an Incomplete.
+
+#### Grade of WF
+
+The grade of WF is issued by an instructor to a student (all undergraduates and all graduate students) who has not attended or not completed all required work in a course but did not officially withdraw before the withdrawal deadline. It differs from an “F,” which would indicate that the student technically completed requirements but that the level of work did not qualify for a passing grade. The WF is equivalent to an F in calculating the grade point average (zero grade points), and no credit is awarded.
+
+#### Grades of Incomplete 
+
+The grade of I, or temporary incomplete, may be granted to a student under unusual and extenuating circumstances, such as when the student’s academic life is interrupted by a medical or personal emergency. This mark is not given automatically but only upon the student’s request and at the discretion of the instructor. A Request for Incomplete form must be completed and signed by student and instructor. The time allowed for completion of the work and removal of the “I” mark will be set by the instructor with the following limitations: 
+
+Undergraduate students: Work must be completed no later than the seventh week of the following fall semester for spring or summer term incompletes and no later than the seventh week of the following spring semester for fall term incompletes. Grades of “I” not revised in the prescribed time will be recorded as a final grade of “WF” by the Office of the Registrar. 
+
+Grades of “I” not revised in the prescribed time will be recorded as a final grade of “WF” (for Parsons and Mannes graduate students) or “N” (for all other graduate students) by the Office of the Registrar. 
+
+The grade of “N” does not affect the GPA but does indicate a permanent incomplete.
+
+
 ## Resubmitting Work
 
 In certain cases, you may resubmit work to improve your grade (up to 2 points) on an assignment. In order to resubmit work the following conditions must be met:
 - your original work must not be late
 - your original work must show a substantial effort
-- you must inform me of your resubmitted work by email  
+- you must inform me of your resubmitted work by email
 
 ## Extra Credit
 

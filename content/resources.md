@@ -1,6 +1,6 @@
 # Resources
 
-## Reference
+## Online Reference
 
 - [MDN Javascript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 	
@@ -17,7 +17,14 @@
 - [Chrome DevTools Overview](https://developer.chrome.com/devtools)
 
   Pressing Command-Option-J in chrome opens a powerful set of developer tools. You can learn a lot about these tools through experimentation, but if you really want to dig in, these are the official docs.
-  
+
+## Books
+
+- [Javascript & JQuery](http://javascriptbook.com/) and [HTML & CSS](http://www.htmlandcssbook.com/)
+
+  A pair of books on web development targeted at designers. Recommended by Ben Lang.
+
+
 ## Tuturials
 
 - [p5 Tutorials](http://p5js.org/tutorials/)

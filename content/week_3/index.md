@@ -94,6 +94,9 @@ You can use `for` and `if` statements inside the blocks of other `for` and `if` 
 <a href="./compose.js" class="p5_example show-lab show-lab-link hidden">loop_math</a>
 
 
+### Demo Challenge
+
+![demo_challenge](demo_challenge.png)
 
 
 ## Interactivity in p5
@@ -150,10 +153,21 @@ We now have the tools to create complex animations and interactions. Lets look a
 
 # Homework
 
-This weeks homework is a series of challenges to recreate drawings, animations, and interactions.
+This weeks homework is a series of challenges to recreate drawings, animations, and interactions. 
+
+Begin by forking the assignment repo and cloning it to your computer. The template has a folder for each challenge. For each challenge try to reproduce the look and behavior as closely as possible. Write clear, well formatted code. Use good, descriptive names for variables, and use comments to explain your code.
+
+The bonus challenge does not have a folder, you should create one on your own.
+
+### Challenge Grading
+
+You will receive 0.5 points for recreating the core technical aspect of each challenge in your code. An additional 0.25 points per challenge will be awarded for well written, well commented code. Partial credit will be awarded for partially completed challenges. 
+
+Commit your work often, but **do not sync your work until Friday**.
+
 
 [Challenges](challenges.html)
 
-[Template]
+[Assignment Repo](https://github.com/PUCD2035-E-F15/assignment_3)
 
 

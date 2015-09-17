@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/bootswatch.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/atelier-health.light.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/main.css">
+	<script type="text/javascript">
+		var base_url = "/class_notes/";
+	</script>
+
+</head>
+<body>
+	<!-- title:  -->
+	<div class="container">
+		<h1>Week 3 Class Notes</h1>
+<p>Opening Video: <a href="https://www.youtube.com/watch?t=205&amp;v=zRGRJRUWafY">Miyamoto on SMB 1-1</a></p>
+<h2>What Interactivity Is</h2>
+<blockquote>
+<p>interactive, adj.</p>
+<p>…acting upon or influencing each other</p>
+</blockquote>
+<p>— <a href="http://www.oed.com/view/Entry/97521?redirectedFrom=interactive#eid">Oxford English Dictionary</a></p>
+<p>A core issue in interactive work is how the viewer effects their experience. In non-interactive works, the viewer has no influence on the form of the work; what the viewer sees and hears is decided entirely when the work is created. In interactive works, the viewer makes choices that influence – or even contribute to – what they see and experience.</p>
+<p>One of the key things to consider when designing or criticizing an interactive project is what options and choices are presented to – and withheld from – the user.</p>
+<p>If you believe that communication is essential to art/design, then all mediums of art/design are arguably interactive to some extent. We tend to call a work interactive only when the the user’s actions and choices are an intentional, substantial consideration of the artist.</p>
+<h2>Loops</h2>
+<p>Javascript provides a flow control structure called a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for">for loop</a>. With loops, you can ask Javascript to execute a single block of code multiple times.</p>
+<p>The basic syntax of a loop looks like this:</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">for</span> ( initialExpression, condition, incrementExpression ) {
+    <span class="hljs-comment">//code to repeat</span>
+}
+</code></pre>
+<p>When the <code>for</code> control structure is executed, Javascript follows these steps:</p>
+<ol>
+<li>The <code>initialExpression</code> is excuted once.</li>
+<li>The <code>condition</code> is evaluated to <code>true</code> or <code>false</code></li>
+<li>If <code>true</code>, continue. If <code>false</code>, <strong>exit</strong> the loop.</li>
+<li>Run the code in the block.</li>
+<li>Run the <code>incrementExpression</code></li>
+<li>Repeat from step 2.</li>
+</ol>
+<p>The MDN Javascript guide also <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement">describes for statements</a>.</p>
+<h3>Idiomatic Loops</h3>
+<p>The code in <code>initialExpression</code>, <code>condition</code>, and <code>incrementExpression</code> could potentially be any legal expression, but it is very common for a for loop to look like this:</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">10</span>; i++){
+    <span class="hljs-comment">// repeated code</span>
+}
+</code></pre>
+<p>This code will execute 10 times, with <code>i</code> having a values of 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. After the last time the repeated code is run, <code>i</code> will be incremented to 10. Because 10 is not less than 10, the loop will exit.</p>
+<h3>Loops Can Shorten Code</h3>
+<p>Compare this code that doesn’t use a loop…</p>
+<pre><code class="language-javascript">line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+</code></pre>
+<p>…to this code that does.</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">for</span> (int n = <span class="hljs-number">0</span>; n &lt; <span class="hljs-number">10</span>; n++) {
+    line( random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>), random(<span class="hljs-number">0</span>, <span class="hljs-number">400</span>));
+}
+</code></pre>
+<p>These code snippets do the same thing: draw ten randomly placed lines. The version with the loop is shorter, clearer, and easier to maintain. With just ten lines, either approach could work. If we wanted to draw hundreds or thousands of lines, using a loop is the only practical choice.</p>
+<h3>Loops + Math = Power</h3>
+<p>When you use the a loop the <strong>same code</strong> is executed multiple times, but that code doesn’t have to do the <strong>same thing</strong> every time. By combining loops with variables and expressions, we can create complex effects.</p>
+<p><a href="./loopmath.js" class="p5_example show-lab show-lab-link hidden">loop_math</a></p>
+<h3>Composing Flow Control</h3>
+<p>You can use <code>for</code> and <code>if</code> statements inside the blocks of other <code>for</code> and <code>if</code> statements.</p>
+<p><a href="./compose.js" class="p5_example show-lab show-lab-link hidden">loop_math</a></p>
+<h3>Demo Challenge</h3>
+<p><img src="demo_challenge.png" alt="demo_challenge"></p>
+<h2>Interactivity in p5</h2>
+<h3>Senses</h3>
+<p>To be interactive, your program must be able to react to the user. In order to react to the user, it needs a way to sense what the user is doing. There are many types of sensors that can be used with computers. Computers can hear with microphones, and see with cameras. They can feel temperature, weight, wind-speed, light levels, magnetism, accelerations, gravity, and direction.</p>
+<p>One of the most basic sensors used with computers is a switch. The computer keyboard is a collections of switches. Keyboards and mice, and now touch screens, are the most common ways we interact with PCs.</p>
+<h3>Using p5 <code>setup</code> and <code>draw</code></h3>
+<p>When p5 runs your program, it first runs the commands you put in <code>setup</code>. It then runs the commands in <code>draw</code>. The <code>draw</code> function is run repeatedly. By default run is run 60 times every second. This can be changed with <a href="http://p5js.org/reference/#/p5/frameRate">frameRate()</a>.</p>
+<p>By changing what you draw each time draw is called, you can create animation. By changing what you draw in response to user input, you can create interaction.</p>
+<h3>Using p5 <code>mouseX</code> and <code>mouseY</code></h3>
+<p>The <a href="http://p5js.org/reference/">p5 library</a> provides an easy way to work with the position of the computer mouse. The <code>mouseX</code> and <code>mouseY</code> variables are used to communicate the position of the cursor relative to your project’s canvas.</p>
+<p>The values of <code>mouseX</code> and <code>mouseY</code> are updated every frame, before your draw function are called.</p>
+<p><a href="./mouseXY.js" class="p5_example show-lab show-lab-link hidden">loop_math</a></p>
+<p>Lets try someting with <code>mouseX</code>, <code>mouseY</code>, and a loop.</p>
+<p><a href="./mouseXY2.js" class="p5_example show-lab show-lab-link hidden">loop_math</a></p>
+<h3>Using p5 <code>mouseIsPressed</code></h3>
+<p>The <code>mouseIsPressed</code> variable is <code>boolean</code>, its value is either <code>true</code> or <code>false</code>. Processing updates this variable to let you know if the main mouse button is pressed.</p>
+<p><a href="./mousePressed.js" class="p5_example show-lab show-lab-link hidden">loop_math</a></p>
+<h2>Animation in p5</h2>
+<h3>State</h3>
+<p>You can create animation by displaying a series of drawings, each slightly different from the last.</p>
+<h3>1: Update, 2: Draw</h3>
+<p>In order to do this, you will often use a variable to keep track of where someting is, change that variable a little each time your draw, and then use that variable while drawing.</p>
+<p><a href="./animation.js" class="p5_example show-lab show-lab-link hidden">loop_math</a></p>
+<p>We now have the tools to create complex animations and interactions. Lets look at how we would draw a bouncing ball.</p>
+<p><a href="./animationBounce.js" class="p5_example show-lab show-lab-link hidden">loop_math</a></p>
+<h1>Homework</h1>
+<p>This weeks homework is a series of challenges to recreate drawings, animations, and interactions.</p>
+<p>Begin by forking the assignment repo and cloning it to your computer. The template has a folder for each challenge. For each challenge try to reproduce the look and behavior as closely as possible. Write clear, well formatted code. Use good, descriptive names for variables, and use comments to explain your code.</p>
+<p>The bonus challenge does not have a folder, you should create one on your own.</p>
+<h3>Challenge Grading</h3>
+<p>You will receive 0.5 points for recreating the core technical aspect of each challenge in your code. An additional 0.25 points per challenge will be awarded for well written, well commented code. Partial credit will be awarded for partially completed challenges.</p>
+<p>Commit your work often, but <strong>do not sync your work until Friday</strong>.</p>
+<p><a href="challenges.html">Challenges</a></p>
+<p><a href="https://github.com/PUCD2035-E-F15/assignment_3">Assignment Repo</a></p>
+
+	</div>
+	
+	<script type="text/javascript" src="/class_notes/javascript/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/highlight.pack.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/p5_example.js"></script>
+	<script type="text/javascript">
+		$( function() {
+			$("table").addClass("table table-bordered");
+		});
+	</script>
+</body>
+</html>

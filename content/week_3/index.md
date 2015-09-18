@@ -2,20 +2,9 @@
 
 Opening Video: [Miyamoto on SMB 1-1](https://www.youtube.com/watch?t=205&v=zRGRJRUWafY)
 
-## What Interactivity Is
-
-> interactive, adj.
-> 
-> ...acting upon or influencing each other
-
-— [Oxford English Dictionary](http://www.oed.com/view/Entry/97521?redirectedFrom=interactive#eid)
+Homework Intro
 
 
-A core issue in interactive work is how the viewer effects their experience. In non-interactive works, the viewer has no influence on the form of the work; what the viewer sees and hears is decided entirely when the work is created. In interactive works, the viewer makes choices that influence -- or even contribute to -- what they see and experience.
-
-One of the key things to consider when designing or criticizing an interactive project is what options and choices are presented to -- and withheld from -- the user.
-
-If you believe that communication is essential to art/design, then all mediums of art/design are arguably interactive to some extent. We tend to call a work interactive only when the the user's actions and choices are an intentional, substantial consideration of the artist.
 
 ## Loops
 
@@ -99,6 +88,22 @@ You can use `for` and `if` statements inside the blocks of other `for` and `if` 
 ![demo_challenge](demo_challenge.png)
 
 
+## What Interactivity Is
+
+> interactive, adj.
+> 
+> ...acting upon or influencing each other
+
+— [Oxford English Dictionary](http://www.oed.com/view/Entry/97521?redirectedFrom=interactive#eid)
+
+
+A core issue in interactive work is how the viewer effects their experience. In non-interactive works, the viewer has no influence on the form of the work; what the viewer sees and hears is decided entirely when the work is created. In interactive works, the viewer makes choices that influence -- or even contribute to -- what they see and experience.
+
+One of the key things to consider when designing or criticizing an interactive project is what options and choices are presented to -- and withheld from -- the user.
+
+If you believe that communication is essential to art/design, then all mediums of art/design are arguably interactive to some extent. We tend to call a work interactive only when the the user's actions and choices are an intentional, substantial consideration of the artist.
+
+
 ## Interactivity in p5
 
 ### Senses
@@ -153,21 +158,16 @@ We now have the tools to create complex animations and interactions. Lets look a
 
 # Homework
 
-This weeks homework is a series of challenges to recreate drawings, animations, and interactions. 
+This week's homework is to recreate a series of small programs (challenges).
 
-Begin by forking the assignment repo and cloning it to your computer. The template has a folder for each challenge. For each challenge try to reproduce the look and behavior as closely as possible. Write clear, well formatted code. Use good, descriptive names for variables, and use comments to explain your code.
+[Read the Assignment Prompt](https://github.com/PUCD2035-E-F15/assignment_3/blob/master/prompt.md)
 
-The bonus challenge does not have a folder, you should create one on your own.
+[View the Challenges](challenges.html)
 
-### Challenge Grading
-
-You will receive 0.5 points for recreating the core technical aspect of each challenge in your code. An additional 0.25 points per challenge will be awarded for well written, well commented code. Partial credit will be awarded for partially completed challenges. 
-
-Commit your work often, but **do not sync your work until Friday**.
+[View the Assignment Repo](https://github.com/PUCD2035-E-F15/assignment_3)
 
 
-[Challenges](challenges.html)
-
-[Assignment Repo](https://github.com/PUCD2035-E-F15/assignment_3)
+```
 
 
+```

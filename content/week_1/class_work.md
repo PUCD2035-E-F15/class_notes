@@ -12,9 +12,9 @@
 
 ### Nicole Corso
 
-<!-- [NAME on Github](https://github.com/NAME) -->
+[hiimniicole on Github](https://github.com/hiimniicole)
 
-<!-- ![Screengrab](https://github.com/NAME/assignment_1/raw/master/output.png) -->
+![Screengrab](https://github.com/hiimniicole/assignment_1/raw/master/output2.png)
 
 
 

@@ -6,15 +6,15 @@
 
 [wendellaching on Github](https://github.com/wendellaching)
 
-![Screengrab](https://github.com/wendellaching/assignment_2/raw/master/screengrab_1.png)
+![Screengrab](https://github.com/wendellaching/assignment_2/raw/master/output_1.png)
 
 
 
 ### Nicole Corso
 
-<!-- [NAME on Github](https://github.com/NAME) -->
+[hiimniicole on Github](https://github.com/hiimniicole)
 
-<!-- ![Screengrab](https://github.com/NAME/assignment_2/raw/master/output.png) -->
+![Screengrab](https://github.com/hiimniicole/assignment_2/raw/master/output.png)
 
 
 
@@ -38,7 +38,7 @@
 
 [jjaqkho on Github](https://github.com/jjaqkho)
 
-![Screengrab](https://github.com/jjaqkho/assignment_2/raw/master/Screenshot.png)
+![Screengrab](https://github.com/jjaqkho/assignment_2/raw/master/1.png)
 
 
 
@@ -54,7 +54,7 @@
 
 [benalang on Github](https://github.com/benalang)
 
-![Screengrab](https://github.com/benalang/assignment_2/raw/master/screenshot.png)
+![Screengrab](https://github.com/benalang/assignment_2/raw/master/output.png)
 
 
 
@@ -66,11 +66,6 @@
 
 
 
-### Jeremyn Lee
-
-[JeremynJL on Github](https://github.com/JeremynJL)
-
-![Screengrab](https://github.com/JeremynJL/assignment_2/raw/master/output.png)
 
 
 
@@ -78,7 +73,7 @@
 
 [palat029 on Github](https://github.com/palat029)
 
-![Screengrab](https://github.com/palat029/assignment_2/raw/master/DoctorStar.png)
+![Screengrab](https://github.com/palat029/assignment_2/raw/master/screengrab.png)
 
 
 
@@ -94,7 +89,7 @@
 
 [nicosiy on Github](https://github.com/nicosiy)
 
-![Screengrab](https://github.com/nicosiy/assignment_2/raw/master/output.png)
+![Screengrab](https://github.com/nicosiy/assignment_2/raw/master/screengrab1.png)
 
 
 
@@ -102,15 +97,10 @@
 
 [brinnathomsen on Github](https://github.com/brinnathomsen)
 
-![Screengrab](https://github.com/brinnathomsen/assignment_2/raw/master/brinnathomsen.png)
+![Screengrab](https://github.com/brinnathomsen/assignment_2/raw/master/SnowandMountains.png)
 
 
 
-### Delong Xiao
-
-[delongxiao on Github](https://github.com/delongxiao)
-
-![Screengrab](https://github.com/delongxiao/assignment_2/raw/master/output.png)
 
 
 

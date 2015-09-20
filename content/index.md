@@ -38,4 +38,4 @@
 
 <a href="background_1.js" class="p5_example show-titled-lab-link hidden">background_1.js</a>
 <a href="background_2.js" class="p5_example show-titled-lab-link hidden">background_2.js</a>
-<a href="background_3.js" class="p5_example show-titled-lab-link hidden">background_2.js</a>
+<a href="background_3.js" class="p5_example show-titled-lab-link hidden">background_3.js</a>

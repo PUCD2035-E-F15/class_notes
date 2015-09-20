@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 
 <script type="text/javascript" src="javascript/p5.min.js"></script>
-<script type="text/javascript" src="background_2.js"></script>
+<script type="text/javascript" src="background_3.js"></script>
 
 | Unit 1 | Introduction to Programming in Javascript and p5
 | --- | ---
@@ -38,3 +38,4 @@
 
 <a href="background_1.js" class="p5_example show-titled-lab-link hidden">background_1.js</a>
 <a href="background_2.js" class="p5_example show-titled-lab-link hidden">background_2.js</a>
+<a href="background_3.js" class="p5_example show-titled-lab-link hidden">background_2.js</a>

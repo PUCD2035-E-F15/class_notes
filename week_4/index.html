@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/bootswatch.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/atelier-health.light.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/main.css">
+	<script type="text/javascript">
+		var base_url = "/class_notes/";
+	</script>
+
+</head>
+<body>
+	<!-- title:  -->
+	<div class="container">
+		<h1>Week 4 Class Notes</h1>
+<p>Opening Video: ?</p>
+<h2>Section One Test is Coming</h2>
+<p>There will be a test at the beginning of week six’s class. This test will include one or two programming challenges and a written portion. The challenges will require a good understanding of the concepts introduced in the first five weeks of the class. The written portion will include questions related to javascript and p5. The test will be open Internet, you can consult any Internet references you wish during the test.</p>
+<h2>Week 3 Challenge Overview</h2>
+<h2>Global vs Function Scope</h2>
+<p><a href="../week_3/animation.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<p>The example above is from last week. What happens if position is declared inside <code>draw</code>?</p>
+<h2>More Javascript Syntax</h2>
+<table>
+<thead>
+<tr><th>What to Know</th><th>What to Do</th></tr>
+</thead>
+<tbody>
+<tr><td>values</td><td>operators</td></tr>
+<tr><td>literals</td><td>expressions</td></tr>
+<tr><td>variables</td><td>statements</td></tr>
+<tr><td>arrays</td><td>control structures <code>if</code>, <code>for</code></td></tr>
+<tr><td>data objects</td><td>functions</td></tr>
+</tbody>
+</table>
+<table>
+<tr><th>What to Know + What to Do</th></tr>
+<tr><td>Object Oriented Programming</td></tr>
+</table>
+<h2>Functions</h2>
+<p>A functions is a named procedure, set of instructions to preform a specific task.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions">Functions in the MDN Guide</a></p>
+<p>There are many benefits to using functions:</p>
+<ul>
+<li>Breaking down a complex task into a series of simpler tasks is key programming. Functions allow you to break a complex program into a collection of smaller ones.</li>
+<li>Functions allow you to organize and name parts of your program, making it easier to read and understand.</li>
+<li>Functions can be reused in multiple places.</li>
+<li>Functions can take parameters, so they can produce different results each time they are run.</li>
+<li>Functions can return a value, allowing you to create reusable calculations.</li>
+</ul>
+<p>The basic syntax for a function looks like this:</p>
+<pre><code class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">name</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">// what to do</span>
+}
+</code></pre>
+<p>You have already created functions in all of your programs, <code>setup</code> and <code>draw</code> are functions you have defined.</p>
+<h3>Naming Functions</h3>
+<p>Choosing good names for functions is important. Function names should concisely describe what the function does. Good function names usually start with verbs. Use camel case when naming functions and be sure the first letter is lowercase (by convention starting a function name with an uppercase letter has special meaning related to Object Oriented Programming).</p>
+<h3>Defining and Calling Functions</h3>
+<p><a href="./function.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<p>In this example, the code for drawing the target has been pulled out of <code>draw</code>and put into a function named <code>drawTarget</code>. This makes the code easier to read, but functions can offer more that this. The function is defined starting on line 16, and called on line 12.</p>
+<h3>Parameters</h3>
+<p><a href="./function2.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<p>Parameters are values that you pass to a function when you call it. When you define the function you list the parameter names. These will work like variables (they are variables) inside your function. The values of these parameters are specified inside the parenthesis when you call the function.</p>
+<h3>Return Value</h3>
+<pre><code class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">addNumbers</span>(<span class="hljs-params">a, b</span>) </span>{
+    <span class="hljs-keyword">return</span> a + b;
+}
+
+<span class="hljs-keyword">var</span> sum = addNumbers(<span class="hljs-number">2</span>, <span class="hljs-number">2</span>);
+<span class="hljs-built_in">console</span>.log(sum);
+<span class="hljs-comment">// 4</span>
+</code></pre>
+<p><a href="./function3.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h2>Arrays</h2>
+<p>An array is an ordered set of values.</p>
+<h3>Assigning and Accessing Array Values</h3>
+<p><a href="./array.js" class="p5_example show-code show-lab-link hidden">test_example</a></p>
+<ul>
+<li>you can initialize an array with an array literal <code>[10, 20, 30]</code></li>
+<li>you can create an empty array with <code>x = []</code></li>
+<li>you can access a value in an array by specifying its position inside <code>[]</code></li>
+<li>the first position in the array is <code>0</code>, not <code>1</code></li>
+</ul>
+<h3>Using an Array</h3>
+<p><a href="./array2.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h2>Data Objects</h2>
+<p>A object is a collection of named values.</p>
+<h3>Assigning and Accessing Object Values</h3>
+<p><a href="./object.js" class="p5_example show-code show-lab-link hidden">test_example</a></p>
+<ul>
+<li>you can initialize an object with an array literal <code>{first: &quot;Siouxsie&quot;, last: &quot;Sioux&quot; }</code></li>
+<li>you can create an empty object with <code>x = {}</code></li>
+<li>you can access a value in an object by specifying its name after a <code>.</code> (the dot operator)</li>
+</ul>
+<h1>Using a Data Object</h1>
+<p><a href="./object2.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<h1>Homework</h1>
+<p>This week’s homework is to recreate a series of small programs (challenges).</p>
+<p><a href="https://github.com/PUCD2035-E-F15/assignment_4/blob/master/prompt.md">Read the Assignment Prompt</a></p>
+<p><a href="challenges.html">View the Challenges</a></p>
+<p><a href="https://github.com/PUCD2035-E-F15/assignment_4">View the Assignment Repo</a></p>
+<pre><code>
+
+<span class="undefined"></span></code></pre>
+
+	</div>
+	
+	<script type="text/javascript" src="/class_notes/javascript/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/highlight.pack.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/p5_example.js"></script>
+	<script type="text/javascript">
+		$( function() {
+			$("table").addClass("table table-bordered");
+		});
+	</script>
+</body>
+</html>

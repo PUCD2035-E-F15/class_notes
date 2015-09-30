@@ -36,7 +36,7 @@ To work with images in p5 you are going to need a local web server. A web server
 
 You need a local server because Chrome expects websites to be hosted online, not on local files in your computer. Chrome will run simple projects from `file://`, but scripts that load external files from javascript (like images) will violate security measures in Chrome. Chrome won't have a problem if the files are served up by the local server.
 
-Many options for running local servers exist. [Anvil](http://anvilformac.com/) is a simple OS X app that makes setting up a local server easy. Justin install Anvil, tell it to serve the folder that contains your project files, and then load up your site in Chrome.
+Many options for running local servers exist. [Anvil](http://anvilformac.com/) is a simple OS X app that makes setting up a local server easy. Just install Anvil, tell it to serve the folder that contains your project files, and then load up your site in Chrome.
 
 [P5 Tutorial on Local Servers](https://github.com/processing/p5.js/wiki/Local-server)
 

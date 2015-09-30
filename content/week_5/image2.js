@@ -1,4 +1,4 @@
-// a simple p5 sketch that draws an image
+// a simple p5 sketch that draws a scaled image
 
 var img;
 function preload() {
@@ -13,5 +13,5 @@ function setup() {
 
 function draw() {
 	background(125, 125, 125);
-	image(img, mouseX, mouseY);
+	image(img, 240 - mouseX , 240 - mouseY, mouseX * 2, mouseY * 2);
 }

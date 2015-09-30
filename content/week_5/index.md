@@ -8,7 +8,7 @@ There will be a test at the beginning of next weeks's class. This test will incl
 
 ## Week 4 Challenge Overview
 
-## Code Comments and Style
+<!-- ## Code Comments and Style -->
 
 
 ## Working with Images
@@ -16,6 +16,10 @@ There will be a test at the beginning of next weeks's class. This test will incl
 Working with images in javascript with p5 is pretty easy. The main catch is that you need to have things set up right for it to work on your local computer.
 
 <a href="./image.js" class="p5_example show-lab show-lab-link hidden">image.js</a>
+
+<a href="./image2.js" class="p5_example show-lab show-lab-link hidden">image.js</a>
+
+When working with images:
 
 - Create a global variable to hold the image.
 - Load the image with `loadImage` from the `preload()` function. This will ensure your image is fully loaded when you try to draw it.
@@ -28,9 +32,11 @@ Working with images in javascript with p5 is pretty easy. The main catch is that
 
 ## Using a Local Server
 
-To work with images in p5 you are going to need a local server. A local server is a web server application that runs on your computer and provides your `.html`, `.js`, and image files to Chrome. The local server is just a web server that is running locally on your computer.
+To work with images in p5 you are going to need a local web server. A web server is a application that provides webfiles over the internet to Chrome. A local server is just a web server that is running locally on your computer. Your web browser will communicate with the server the same way it would communicate with a remote webserver, but because both applications are on the same computer you don't even need to be on a network for this to work.
 
-You need a local server because Chrome expects websites to be hosted online, not on local files in your computer. Chrome will load simple projects locally, but projects that load external files from javascript (like images) need to be properly served.
+You need a local server because Chrome expects websites to be hosted online, not on local files in your computer. Chrome will run simple projects from `file://`, but scripts that load external files from javascript (like images) will violate security measures in Chrome. Chrome won't have a problem if the files are served up by the local server.
+
+Many options for running local servers exist. [Anvil](http://anvilformac.com/) is a simple OS X app that makes setting up a local server easy. Justin install Anvil, tell it to serve the folder that contains your project files, and then load up your site in Chrome.
 
 [P5 Tutorial on Local Servers](https://github.com/processing/p5.js/wiki/Local-server)
 
@@ -38,13 +44,6 @@ You need a local server because Chrome expects websites to be hosted online, not
 
 # Homework
 
-This week's homework is to recreate a series of small programs (challenges).
-
-[Read the Assignment Prompt](https://github.com/PUCD2035-E-F15/assignment_4/blob/master/prompt.md)
-
-[View the Challenges](challenges.html)
-
-[View the Assignment Repo](https://github.com/PUCD2035-E-F15/assignment_4) 
 
 
 ```

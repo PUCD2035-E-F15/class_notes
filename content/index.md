@@ -17,7 +17,7 @@
 | Week 2 | Intro to Javascript Syntax | [class notes](week_2) [class work](week_2/class_work.html)
 | Week 3 | Interactivity and Animation in p5 | [class notes](week_3)
 | Week 4 | Javascript Functions and Data | [class notes](week_4)
-| Week 5 | Working with Images in p5 | [class notes](#)
+| Week 5 | Working with Images in p5 | [class notes](week_5)
 
 | Unit 2 | Creative Computing Projects
 | --- | ---

@@ -121,7 +121,7 @@ A object is a collection of named values.
 
 # Using a Data Object
 
-<a href="./object2.js" class="p5_example show-preview !show-lab-link hidden">test_example</a>
+<a href="./object2.js" class="p5_example show-preview show-lab-link hidden">test_example</a>
 
 
 

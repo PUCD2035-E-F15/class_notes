@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/bootswatch.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/atelier-health.light.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/main.css">
+	<script type="text/javascript">
+		var base_url = "/class_notes/";
+	</script>
+
+</head>
+<body>
+	<!-- title:  -->
+	<div class="container">
+		<h1>Week 5 Class Notes</h1>
+<p>Opening Video: ?</p>
+<h2>Section One Test is Next Week</h2>
+<p>There will be a test at the beginning of next weeks’s class. This test will include one or two programming challenges and a written portion. The challenges will require a good understanding of the concepts introduced in the first five weeks of the class. The written portion will include questions related to javascript and p5. The test will be open Internet, you can consult any Internet references you wish during the test.</p>
+<h2>Week 4 Challenge Overview</h2>
+<!-- ## Code Comments and Style -->
+<h2>Working with Images</h2>
+<p>Working with images in javascript with p5 is pretty easy. The main catch is that you need to have things set up right for it to work on your local computer.</p>
+<p><a href="./image.js" class="p5_example show-lab show-lab-link hidden">image.js</a></p>
+<p><a href="./image2.js" class="p5_example show-lab show-lab-link hidden">image.js</a></p>
+<p>When working with images:</p>
+<ul>
+<li>Create a global variable to hold the image.</li>
+<li>Load the image with <code>loadImage</code> from the <code>preload()</code> function. This will ensure your image is fully loaded when you try to draw it.</li>
+<li>Draw your image with the <code>image()</code> function.</li>
+<li>Size your files appropriately. They should usually be the exact size you are going to use them. With high res cameras and scanners it is easy to create high res files, but usually you don’t need that for on screen work. If your image is bigger than 1000 pixels tall or wide, without a good reason, somethings is wrong.</li>
+<li>Save your images as jpg (good for photos), or png (good for graphics, or if you want transparency).</li>
+<li>Put them in the same folder as your sketch.js</li>
+</ul>
+<h2>Using a Local Server</h2>
+<p>To work with images in p5 you are going to need a local web server. A web server is a application that provides webfiles over the internet to Chrome. A local server is just a web server that is running locally on your computer. Your web browser will communicate with the server the same way it would communicate with a remote webserver, but because both applications are on the same computer you don’t even need to be on a network for this to work.</p>
+<p>You need a local server because Chrome expects websites to be hosted online, not on local files in your computer. Chrome will run simple projects from <code>file://</code>, but scripts that load external files from javascript (like images) will violate security measures in Chrome. Chrome won’t have a problem if the files are served up by the local server.</p>
+<p>Many options for running local servers exist. <a href="http://anvilformac.com/">Anvil</a> is a simple OS X app that makes setting up a local server easy. Just install Anvil, tell it to serve the folder that contains your project files, and then load up your site in Chrome.</p>
+<p><a href="https://github.com/processing/p5.js/wiki/Local-server">P5 Tutorial on Local Servers</a></p>
+<h1>Homework</h1>
+<pre><code>
+
+<span class="undefined"></span></code></pre>
+
+	</div>
+	
+	<script type="text/javascript" src="/class_notes/javascript/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/highlight.pack.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/p5_example.js"></script>
+	<script type="text/javascript">
+		$( function() {
+			$("table").addClass("table table-bordered");
+		});
+	</script>
+</body>
+</html>

@@ -16,10 +16,32 @@
 		<h1>Week 5 Class Notes</h1>
 <p>Opening Video: ?</p>
 <h2>Section One Test is Next Week</h2>
-<p>There will be a test at the beginning of next weeks’s class. This test will include one or two programming challenges and a written portion. The challenges will require a good understanding of the concepts introduced in the first five weeks of the class. The written portion will include questions related to javascript and p5. The test will be open Internet, you can consult any Internet references you wish during the test.</p>
+<p>There will be a test at the beginning of next week’s class. This test will include one or two programming challenges and a written portion. The challenges will require a good understanding of the concepts introduced in the first five weeks of the class. The written portion will include questions related to javascript and p5. The test will be open Internet, you can consult any Internet references you wish during the test.</p>
 <h2>Week 4 Challenge Overview</h2>
-<!-- ## Code Comments and Style -->
+<h2>Code Style</h2>
+<h4>Poor Style</h4>
+<p><a href="./style_bad.js" class="p5_example show-lab show-lab-link hidden">image.js</a></p>
+<h4>Better Style</h4>
+<p><a href="./style.js" class="p5_example show-lab show-lab-link hidden">image.js</a></p>
+<h4>Good Style Practices</h4>
+<ul>
+<li>Be consistent.</li>
+<li>Choose descriptive, unambiguous names.</li>
+<li>Properly indent and space your code (use jsformat).</li>
+<li>Avoid repeated code, especially avoid redundant code.</li>
+<li>Avoid repeated “magic” literals. Use a variable to name them and make them easier to tweak.</li>
+<li>Use a header comment to describe what your code does.</li>
+<li>Use comments in your code to explain why your code does what it does.</li>
+<li>Avoid comments that simply restate what the code says.</li>
+</ul>
 <h2>Working with Images</h2>
+<h3>Digital Images</h3>
+<p>An 8-bit RGB Image</p>
+<pre><code><span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>     <span class="hljs-number">255</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>     <span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>
+<span class="hljs-number">255</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>   <span class="hljs-number">255</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>     <span class="hljs-number">255</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>
+<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>     <span class="hljs-number">255</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>     <span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>
+</code></pre>
+<h3>p5 Image API</h3>
 <p>Working with images in javascript with p5 is pretty easy. The main catch is that you need to have things set up right for it to work on your local computer.</p>
 <p><a href="./image.js" class="p5_example show-lab show-lab-link hidden">image.js</a></p>
 <p><a href="./image2.js" class="p5_example show-lab show-lab-link hidden">image.js</a></p>
@@ -33,11 +55,18 @@
 <li>Put them in the same folder as your sketch.js</li>
 </ul>
 <h2>Using a Local Server</h2>
-<p>To work with images in p5 you are going to need a local web server. A web server is a application that provides webfiles over the internet to Chrome. A local server is just a web server that is running locally on your computer. Your web browser will communicate with the server the same way it would communicate with a remote webserver, but because both applications are on the same computer you don’t even need to be on a network for this to work.</p>
+<p>To work with images in p5 you are going to need a local web server. A web server is a application that provides web files over the Internet to Chrome. A local server is just a web server that is running locally on your computer. Your web browser will communicate with the server the same way it would communicate with a remote web server, but because both applications are on the same computer you don’t even need to be on a network for this to work.</p>
 <p>You need a local server because Chrome expects websites to be hosted online, not on local files in your computer. Chrome will run simple projects from <code>file://</code>, but scripts that load external files from javascript (like images) will violate security measures in Chrome. Chrome won’t have a problem if the files are served up by the local server.</p>
-<p>Many options for running local servers exist. <a href="http://anvilformac.com/">Anvil</a> is a simple OS X app that makes setting up a local server easy. Just install Anvil, tell it to serve the folder that contains your project files, and then load up your site in Chrome.</p>
+<p>Many options for running local servers exist. <a href="http://anvilformac.com/">Anvil</a> is a simple OS X App that makes setting up a local server easy. Just install Anvil, tell it to serve the folder that contains your project files, and then load up your site in Chrome.</p>
 <p><a href="https://github.com/processing/p5.js/wiki/Local-server">P5 Tutorial on Local Servers</a></p>
 <h1>Homework</h1>
+<ul>
+<li>First, there is no homework this week.</li>
+<li>Second, you may rework any and all of the first four week’s assignments and resubmit. Be sure to use good style. The first two assignments are about drawing with code, so don’t use imported images. You know much more javascript syntax now, think about how you can apply it towards each assignment. Email me a clear list of the assignments/challenges you are resubmitting. All resubmits are due before class begins next week.</li>
+<li>Third, there is a bonus assignment: make a p5 project using the image API.</li>
+<li>Last, next week is the quiz. Study.</li>
+</ul>
+<p>Note: reworking and resubmitting the first four assignments is a great way to study.</p>
 <pre><code>
 
 <span class="undefined"></span></code></pre>

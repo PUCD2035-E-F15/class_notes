@@ -21,7 +21,7 @@
 
 | Unit 2 | Creative Computing Projects
 | --- | ---
-| Week 6 | Intro to Interaction Design | [class notes](#)
+| Week 6 | Intro to Interaction Design | [class notes](week_6)
 | Week 7 | Programming Interactions | [class notes](#)
 | Week 8 | Interaction and Narrative | [class notes](#)
 | Week 9 | Collaborative Programming | [class notes](#)

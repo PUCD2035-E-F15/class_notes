@@ -2,23 +2,22 @@
 
 # Section 1 Quiz
 
-[First, The Quiz](#)
+[First, The Quiz](quiz.html)
 
-4:40
 # Interactivity in Design
 
-A core issue in interactive work is how the viewer effects their experience. In non-interactive works, the viewer does not influence form of the work; what the viewer sees and hears is decided entirely when the work is created. In interactive works, the viewer makes choices that influence — or even contribute to — what they see and experience.
+A core issue in interactive work is how the viewer affects their experience. In non-interactive works, the viewer does not influence form of the work; what the viewer sees and hears is decided when the work is created. In interactive works, the viewer makes choices that influence — or even contribute to — what they see and experience.
 
 One of the key things to consider when designing or criticizing an interactive project is what options and choices are presented to — and withheld from — the user.
 
-If you believe that (1) communication is essential component to art/design, and (2) that communication is inherently interactive, then all mediums of art/design are arguably interactive to some extent. We tend to call a work interactive only when the the user's actions and choices are an intentional, substantial consideration of the artist.
+If you believe that (1) communication is an essential component to art/design, and (2) that communication is inherently interactive, then all mediums of art/design are arguably interactive to some extent. We tend to call a work interactive only when the the user's actions and choices are an intentional, substantial consideration of the artist.
 
 Is a painting interactive? A movie? A video game? A concert?
 
 # Interactivity Spectrum Discussion
 
 
-5:00
+
 # A Communication Model
 
 There are many [models of communication](https://en.wikipedia.org/wiki/Models_of_communication). Below is a simplfied model for how communication works with traditional (non-interactive) forms like paintings, posters, and public speaking.
@@ -33,7 +32,9 @@ There are many [models of communication](https://en.wikipedia.org/wiki/Models_of
 - The message is not decoded alone, it is decoded in with context and noise.
 - The idea that the receiver has is not the same idea the sender has: it has been influenced by the encoding skills of the sender, the cultural context, noise, the skill the receiver has in decoding the form, and the receivers existing ideas.
 
+
 # Text and Context
+
 When communicating, _what you say_ is an important factor in what the audience hears. It is important to recognize, especially for designers, that _how you say it_ is at least as important.
 
 - I didn't say she stole it.
@@ -85,7 +86,7 @@ One of the most powerful aspects of interactive works is that the audience can s
 
 
 
-5:40
+
 # Constructing Meaning with Interaction
 
 Interaction Charades is a design exercise _very loosely_ based on Charades, in that you attempt to convey a specific, secret prompt while limited in how you may communicate.
@@ -106,7 +107,6 @@ Considerations:
 - How is shape and color used? Avoid telling your story with shape and color, these should be used mainly to clarify relationships and support the interaction.
 - How is movement/animation used? Avoid complex sequences of movement. Movement should be generally be simple and directly related to user interactions.
 
-6:20
 
 # Homework
 
@@ -114,10 +114,18 @@ You will be given 3 prompts. For each prompt, concept and storyboard at least 3 
 
 ## Storyboard Format
 
-Print and use the provided storyboard templates. You will also need some fine point Sharpies (black, red, and blue); a pencil, and writing pen. Use the Sharpies to draw the elements in your interaction. Use the pencil to draw arrows and other didactic marks needed to explain motion.
+![Storyboard Template](storyboard_template.svg)
+[Storyboard Template](storyboard_template.svg)
 
-The first frame of each storyboard should show how the scene would look when before the user begins to interact. The second frame should describe an action taken by the user. The third frame should be used to describe the results of the interaction. Consider these as general guidelines: some ideas may require a different structure, or more or less frames. Use one page per concept.
+Print and use the storyboard templates. You will also need some fine point Sharpies/markers (black, red, and blue); a pencil, and writing pen. Use the Sharpies to draw the elements in your interaction. Use the pencil to draw arrows and other didactic marks needed to explain motion. Use the pen to write notes about each frame. **Create your storyboards on paper, not on a  computer.**
+
+The first frame of each storyboard should show how the scene would look when before the user begins to interact. Depending on your interaction, you may want to have a second frame showing what happens if the use waits before interactiong. Use pairs of frames to describe an action taken by the user, and the results of the action. 
+
+Consider these as general guidelines: some ideas may require a different structure, or more or less frames. Use one page per concept.
 
 Take time to make your sketches neat and clear. Provide written notes to explain each frame; the visual and written parts should support each other. Your storyboards should communicate your idea on their own, without additional explanation.
 
-You will have 9 (or more) total story boards when you are done. Decide on a title for each interaction design. Make sure each is clearly labeled with your name, the prompt, and the design title. Bring them to class in a folder, also clearly labeled with your name, that you will turn in.
+You will have 9 (or more) total story boards when you are done. Make sure each is clearly labeled with your name, the prompt, and the storyboard title. Bring them to class in a folder, also clearly labeled with your name, that you will turn in.
+
+
+![Storyboard Example](storyboard_example.jpg)

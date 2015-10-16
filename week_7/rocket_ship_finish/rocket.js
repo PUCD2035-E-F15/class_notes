@@ -14,12 +14,12 @@ var largeCloudX = -100;
 var smallCloudX = 600;
 
 function preload() {
-	backgroundImg = loadImage("week_7/rocket_ship_finsih/images/background.jpg");
-	rocketImg = loadImage("week_7/rocket_ship_finsih/images/rocket.png");
-	smokeImage = loadImage("week_7/rocket_ship_finsih/images/smoke.png");
-	platformSmokeImage = loadImage("week_7/rocket_ship_finsih/images/platform_smoke.png");
-	largeCloudImage = loadImage("week_7/rocket_ship_finsih/images/large_cloud.png");
-	smallCloudImage = loadImage("week_7/rocket_ship_finsih/images/small_cloud.png");
+	backgroundImg = loadImage("week_7/rocket_ship_finish/images/background.jpg");
+	rocketImg = loadImage("week_7/rocket_ship_finish/images/rocket.png");
+	smokeImage = loadImage("week_7/rocket_ship_finish/images/smoke.png");
+	platformSmokeImage = loadImage("week_7/rocket_ship_finish/images/platform_smoke.png");
+	largeCloudImage = loadImage("week_7/rocket_ship_finish/images/large_cloud.png");
+	smallCloudImage = loadImage("week_7/rocket_ship_finish/images/small_cloud.png");
 }
 
 function setup() {

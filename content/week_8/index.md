@@ -22,7 +22,7 @@ Reacting to input changes is very common, so p5 will notify us when these `event
 
 <a href="p5_event.js" class="p5_example show-lab show-lab-link hidden">p5_event.js</a>
 
-This code is a little simpler—we don't have a mouseWasPressed variable, and don't need the `if`. It is also easier to read and understand because the `draw()` function is focused on drawing, and the state change is handled in `mousePressed()`.
+This code is a little simpler—we don't have a `mouseWasPressed` variable, and don't need the `if`. It is also easier to read and understand because the `draw()` function is focused on drawing, and the state change is handled in `mousePressed()`.
 
 ## Application State
 
@@ -35,6 +35,10 @@ Until now, our applications have been basically "single-screen" or "single-scene
 We can use functions to organize things a bit. This helps a little bit even with this simple app, but becomes even more important as your applications grow more complex.
 
 <a href="day_night_functions.js" class="p5_example show-lab show-lab-link hidden">day_night.js</a>
+
+The example below is the most complex example we've seen in the class notes, but it is broken up into several functions. None of the functions are very complex. Study how this example breaks down a larger problem into a collection of smaller ones.
+
+<a href="day_night_complex.js" class="p5_example show-lab show-lab-link hidden">day_night.js</a>
 
 
 

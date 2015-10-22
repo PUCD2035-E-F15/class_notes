@@ -43,4 +43,16 @@ The example below is the most complex example we've seen in the class notes, but
 
 
 
-## Assignment
+# Illustration Assigment, Part 2
+
+Build on your illustration in two ways: 
+
+First, **revise** the existing features based on critique feedback. Aim for making **significant improvements** in all areas of your project including: illustration, composition, animation, interaction.
+
+Second, **expand** your project by making use of p5 events and adding a second "state" or "page". Carefully consider how the second state is activated, how the user returns to the first state, and how the states relate to each other.
+
+
+
+
+
+

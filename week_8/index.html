@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/bootswatch.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/atelier-health.light.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/main.css">
+	<script type="text/javascript">
+		var base_url = "/class_notes/";
+	</script>
+
+</head>
+<body>
+	<!-- title:  -->
+	<div class="container">
+		<h1>Week 8 Class Notes</h1>
+<h2>Interactive Illustration Critique</h2>
+<ul>
+<li>What do you see?</li>
+<li>What can you do?</li>
+<li>What choices are you faced with? What options can you choose from?</li>
+<li>Do the choices have a meaningful impact on the experience?</li>
+<li>Is there a beginning? An end? Should there be?</li>
+<li>What is the piece about?</li>
+<li>How do the visuals support the meaning?</li>
+<li>How does the interaction support the meaning?</li>
+</ul>
+<h2>p5 Events</h2>
+<p>We have used <code>mouseX</code>, <code>mouseY</code>, and <code>mouseIsPressed</code> to make our sketches interactive. These variables are created and set by p5, and let us <strong>poll</strong> to find out the state of the mouse every frame. Often we want to perform a specific action when the state changes. For example we might want to do something at the moment the user presses the button.</p>
+<p>One thing we could do is keep track of the button state ourselves and use <code>if</code> to see if it has changed.</p>
+<p><a href="manual_event.js" class="p5_example show-lab show-lab-link hidden">manual_event.js</a></p>
+<p>Reacting to input changes is very common, so p5 will notify us when these <code>events</code> occur. This sketch does the same thing, but uses p5 events.</p>
+<p><a href="p5_event.js" class="p5_example show-lab show-lab-link hidden">p5_event.js</a></p>
+<p>This code is a little simpler—we don’t have a <code>mouseWasPressed</code> variable, and don’t need the <code>if</code>. It is also easier to read and understand because the <code>draw()</code> function is focused on drawing, and the state change is handled in <code>mousePressed()</code>.</p>
+<h2>Application State</h2>
+<p>In the example above, the <code>ellipseColor</code> variable is used to remember a small piece of our application <strong>state</strong>. It remembers what color our ellipse should be. The <code>draw()</code> function uses that state when it draws the ellipse, and the <code>mousePressed()</code> function changes the state. Note that the <code>draw()</code> function doesn’t need to “know” anything about what causes <code>ellipseColor</code> to change, it only needs to draw it.</p>
+<p>Until now, our applications have been basically “single-screen” or &quot;single-scene&quot;. The next example has two scenes, and switches when the user clicks.</p>
+<p><a href="day_night.js" class="p5_example show-lab show-lab-link hidden">day_night.js</a></p>
+<p>We can use functions to organize things a bit. This helps a little bit even with this simple app, but becomes even more important as your applications grow more complex.</p>
+<p><a href="day_night_functions.js" class="p5_example show-lab show-lab-link hidden">day_night.js</a></p>
+<p>The example below is the most complex example we’ve seen in the class notes, but it is broken up into several functions. None of the functions are very complex. Study how this example breaks down a larger problem into a collection of smaller ones.</p>
+<p><a href="day_night_complex.js" class="p5_example show-lab show-lab-link hidden">day_night.js</a></p>
+<h1>Illustration Assigment, Part 2</h1>
+<p>Build on your illustration in two ways:</p>
+<p>First, <strong>revise</strong> the existing features based on critique feedback. Aim for making <strong>significant improvements</strong> in all areas of your project including: illustration, composition, animation, interaction.</p>
+<p>Second, <strong>expand</strong> your project by making use of p5 events and adding a second “state” or &quot;page&quot;. Carefully consider how the second state is activated, how the user returns to the first state, and how the states relate to each other.</p>
+
+	</div>
+	
+	<script type="text/javascript" src="/class_notes/javascript/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/highlight.pack.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/p5_example.js"></script>
+	<script type="text/javascript">
+		$( function() {
+			$("table").addClass("table table-bordered");
+		});
+	</script>
+</body>
+</html>

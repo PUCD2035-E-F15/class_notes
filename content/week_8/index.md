@@ -42,6 +42,11 @@ The example below is the most complex example we've seen in the class notes, but
 
 
 
+# Button Example from Class
+
+This is the example we looked at in class on how to tell if the mouse was over a certain area. For this to work correctly the sketch's canvas cannot be scaled, so open it in the editor and make sure your window is big enough to fit the canvas without scaling.
+<a href="button.js" class="p5_example show-lab show-lab-link hidden">button.js</a>
+
 
 # Illustration Assigment, Part 2
 

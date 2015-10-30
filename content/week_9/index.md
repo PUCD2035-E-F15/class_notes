@@ -88,16 +88,18 @@ Next week we will add everyone's brushes into the app, and review the resulting 
 
 We will also vote on the following awards:
 
-- Most useful
-- Most beautiful
-- Most interesting
-- Most complicated
-- Most elgant
-- Most suprising
-- Most unique
-- Easist to use
-- Hardest to use
-- Ugliest
-- Best simulation of a natural media
-- Best simulation of unnatural media
-
+- Most Useful
+- Least Useful
+- Most Beautful
+- Most Interesting
+- Most Complicated
+- Most Elegant
+- Strangest
+- Most Unique
+- Most Natural
+- Least Natural
+- Easiest to Use
+- Hardest to Use
+- Most Fun
+- Least Fun
+- Best All Around

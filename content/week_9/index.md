@@ -74,6 +74,15 @@ Create a new brush/tool for the paint program. Your tool can do almost anything,
 - Your tool should change the drawing, leaving behind some kind of mark.
 - Your tool should not completely clear the exiting drawing.
 - Your tool should use the global `forecolor` variable, but it doesn't have to use it for color.
+- You may make multiple tools if you wish
+
+When writing your code:
+
+- Use clear, clean code.
+- Format your code.
+- Use comments to explain what your code does and how.
+- Include a comment header describing your brush, and including your name.
+
 
 Next week we will add everyone's brushes into the app, and review the resulting app. We will have a small crit of each brush, and also discuss the emergent properties of the overall app.
 

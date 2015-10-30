@@ -1,6 +1,6 @@
 # Week 8 Class Notes
 
-## Interactive Illustration Critique
+## Interactive Illustration Quick Critique
 
 - What do you see?
 - What can you do?
@@ -19,6 +19,11 @@
 - How do you return to the first state?
 
 ## Creating a Tool
+
+Computers are versatile powerful tools for artists. Hundreds of commercial apps are targeted at artists and designers. Artists often employ several applications together when creating their work. Many artists have created their own applications to achieve particular effects. Sometimes these tools are used only once, sometimes they become an important part of design culture.
+
+Some examples:
+
 - Pitaru/Paterson [Rhonda Forever](http://rhondaforever.com/)
 - Toby Schachman [Recursive Drawing](http://recursivedrawing.com/)
 - Mr. Doob [Voxels](http://mrdoob.com/#/129/voxels), [Branching](http://mrdoob.com/#/110/branching), [Harmony](http://mrdoob.com/projects/harmony/#grid)
@@ -26,11 +31,22 @@
 - Adobe [Photoshop](http://www.photoshop.com)
 - Analytic [bfxr](http://www.bfxr.net/)
 - Zefrank [Scribler](http://www.zefrank.com/scribbler/), [Snowflake](http://www.zefrank.com/snowflake/)
-- [Tape Gun](http://makezine.com/2015/10/29/turning-a-tape-gun-into-a-prototyping-machine/)
+- HPI [Protopiper](http://makezine.com/2015/10/29/turning-a-tape-gun-into-a-prototyping-machine/)
+- [Combscript](http://combscript.justinbakse.com)
 
-## The "Class Paint" App
+## The "Class Paint" Project
 
 We, as a class, are going to build an drawing tool together. We will do this by each building a tool/brush, and then collecting them together into a single interface. 
+
+Topics:
+- what is a tool? what makes a "good" tool?
+- further exploration of p5
+- contributing to a larger coding project
+- using Github pull requests
+- touching on object oriented programming
+
+
+## The Shell
 
 I have built a quick and dirty shell for the drawing app. The shell handles creating the toolbar the user will use to pick tools. It also provides an interface to let the user pick a color to draw with. There are also a few example tools/brushes.
 
@@ -55,15 +71,24 @@ In class demo of creating an empty brush script, adding it to the project, and t
 Create a new brush/tool for the paint program. Your tool can do almost anything, but try to stick to these guidelines: 
 
 - Your tool should be controlled, in some way, by the user.
-- Your tool should not completely clear the exiting drawing.
 - Your tool should change the drawing, leaving behind some kind of mark.
+- Your tool should not completely clear the exiting drawing.
 - Your tool should use the global `forecolor` variable, but it doesn't have to use it for color.
 
 Next week we will add everyone's brushes into the app, and review the resulting app. We will have a small crit of each brush, and also discuss the emergent properties of the overall app.
 
 We will also vote on the following awards:
 
-- Most Useful Brush
+- Most useful
+- Most beautiful
+- Most interesting
+- Most complicated
+- Most elgant
+- Most suprising
+- Most unique
+- Easist to use
+- Hardest to use
+- Ugliest
 - Best simulation of a natural media
-- Funniest Brush
-- Strangest
+- Best simulation of unnatural media
+

@@ -19,10 +19,26 @@
 - How do you return to the first state?
 
 ## Creating a Tool
+- Pitaru/Paterson [Rhonda Forever](http://rhondaforever.com/)
+- Toby Schachman [Recursive Drawing](http://recursivedrawing.com/)
+- Mr. Doob [Voxels](http://mrdoob.com/#/129/voxels), [Branching](http://mrdoob.com/#/110/branching), [Harmony](http://mrdoob.com/projects/harmony/#grid)
+- Evil Mad Scientist [StippleGen](http://www.evilmadscientist.com/2012/stipplegen-weighted-voronoi-stippling-and-tsp-paths-in-processing/)
+- Adobe [Photoshop](http://www.photoshop.com)
+- Analytic [bfxr](http://www.bfxr.net/)
+- Zefrank [Scribler](http://www.zefrank.com/scribbler/), [Snowflake](http://www.zefrank.com/snowflake/)
+- [Tape Gun](http://makezine.com/2015/10/29/turning-a-tape-gun-into-a-prototyping-machine/)
 
 ## The "Class Paint" App
 
+We, as a class, are going to build an drawing tool together. We will do this by each building a tool/brush, and then collecting them together into a single interface. 
+
+I have built a quick and dirty shell for the drawing app. The shell handles creating the toolbar the user will use to pick tools. It also provides an interface to let the user pick a color to draw with. There are also a few example tools/brushes.
+
+Lets take a very quick look at the application and how it works.
+
 ## Creating a "Splatter" Brush
+
+In class demo of creating an empty brush script, adding it to the project, and then coding a particular drawing behavior.
 
 ## Setting up your own Brush
 
@@ -32,6 +48,7 @@
 - Add a `script` tag to index.html to load your new brush.
 - Start experimenting
 
+## In class work time
 
 ## Assignment
 
@@ -50,4 +67,3 @@ We will also vote on the following awards:
 - Best simulation of a natural media
 - Funniest Brush
 - Strangest
-- 

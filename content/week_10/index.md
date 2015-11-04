@@ -50,13 +50,20 @@ Story
 “Here is one of the few effective keys to the design problem — the ability of the designer to recognize as many of the constraints as possible — his willingness and enthusiasm for working within these constraints.” – Charles Eames
 
 
+Proposal Research
+
 
 # Proposal Outline
 
 ## Introduction (100 words)
-Explanation of your proposed project. Written to an audience who doesn't know what the assignment is. Include brief description of the project, motivation for creating it, theme and tone, user takeaway.
+Explanation of your proposed project. Written to an audience who doesn't know what the assignment is. Include brief description of the project, motivation for creating it, theme and tone, user takeaway (think/feel). Creative Goals.
 
 Remember your audience is unfamiliar with this class and this assignment. Mention that you will be developing it as a web page, using p5, the narrative ill be in 3 (or more) pages with interaction on each page.
+
+
+## Learning Objectives
+
+## Technical Challenges
 
 ## Description/User Scenario (100 words)
 
@@ -64,14 +71,18 @@ Remember your audience is unfamiliar with this class and this assignment. Mentio
 
 Break into three acts with headings.
 
-## Storyboards
+## Interaction Storyboards (one per page)
 
 
-## Style Reference (15-30 images)
+## Style Reference (20-30 images)
 Collected, organized images that show the spirit/feeling you will be trying to capture.
+google image search
 
 ## Reference Projects (3x100 words)
 Three project related to your project. Written mini-reviews of the projects including: titles, authors, brief description, strengths and weaknesses, relating them to your proposed project. Also collect images, links to the projects.
+1 interactive
+1 non interactive
+
 
 
 ## Budget

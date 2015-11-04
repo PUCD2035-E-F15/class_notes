@@ -78,6 +78,12 @@ Break into three acts with headings.
 Collected, organized images that show the spirit/feeling you will be trying to capture.
 google image search
 
+https://www.artstation.com
+
+https://www.behance.net/
+
+
+
 ## Reference Projects (3x100 words)
 Three project related to your project. Written mini-reviews of the projects including: titles, authors, brief description, strengths and weaknesses, relating them to your proposed project. Also collect images, links to the projects.
 1 interactive

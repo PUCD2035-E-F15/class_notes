@@ -1,4 +1,4 @@
-# Week 8 Class Notes
+# Week 9 Class Notes
 
 ## Interactive Illustration Quick Critique
 

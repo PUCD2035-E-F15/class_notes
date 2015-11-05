@@ -58,7 +58,7 @@ See: [Wikipedia](https://en.wikipedia.org/wiki/Three-act_structure), [TVTropes](
 ## Tell a Story in Three Sentences
 
 - write a story in three sentences
-- partner up, share story, revise story
+- partner up, read story out loud, revise story
 - read story to class
 
 
@@ -128,13 +128,45 @@ Requirements:
 - Should allow a wide range of expression
 
 
+## How to write a proposal
 
+Writing a proposal requires two things: choosing an idea to propose and writing about the idea.
+
+Choosing
+1. Start tonight. Write down every idea you can think of. Sleep on it.
+2. Tomorrow. Pick the best idea that you are confident you can successfully complete. If you are stuck between two idea, ask a friend or stranger to pick for you.
+3. Commit your heart to the idea. Discard, destroy, and forget all the other ideas.
+
+Don't decide how to spend your weekend on Sunday.
+
+**Your idea matters. Your idea matters less then you think.**
+
+Writing
+1. Start this weekend. Type out the outline below. Fill in each section with initial ideas as bullet points. Don't worry about spelling, grammar, or even if what your write makes sense.
+2. Google around for reference images and projects. If (when) you have ideas for your project, add them to your lists.
+3. Sleep on it.
+4. Start working your bullet lists into actual writing. Start worrying about making sense. 
+5. Google around for reference images and projects, again. If (when) you have ideas for your project, add them to your writing.
+5. Sleep on it.
+6. Read your writing out loud to a human being. Edit the sentences as you go.Repeat. 
+7. Sleep on it.
+8. Find a fried to read and markup your final writing. No one edits their own work very well. Encourage them to point out things they don't understand. Review their notes with them, then make your final revisions.
+
+**In short: List, Research, Sleep, Write, Research, Sleep, Read, Revise, Sleep, Finish**
 
 # Milestone 1: Proposal Research + Writing
 
 **Due Next Week** 
 
-## Introduction (150+ words)
+For next week, figure out what you are going to make and spend some time developing the details of your plan. Spend some time this week picking a project that you want to make and you are confident you can make. 
+
+**You can't change your project after this week.** 
+
+You'll be doing a lot of writing this week and a little reference research, each of the components below is required. Collect all your writing together in a single text file, with clear headings. Name your reference images well and collect them in a folder. Bring all of this to class digitally next week.
+
+Next week I'll be showing several pitches and treatments for large scale interactive and animation projects. For next weeks assignment you will create comps showing exactly how your project will look and lay out your writing, research, and comps into a professional pitch deck. 
+
+### Introduction (150+ words)
 - Explain your proposed project.
 - Describe what are you making?
 - Include the motivation for making the project. (Don't frame it as an assignment response)
@@ -144,54 +176,54 @@ Requirements:
 - Address an audience is unfamiliar with this class and this assignment.
 - **Don't tell your story in this section.**
 
-## Three Sentence Story (60 or less words)
+### Three Sentence Story (60 or less words)
 - Write your story in three clear sentences. 
 - Follow the three act structure discussed in class.
 
-## Full Story (about 100 words)
+Note: If you are doing the game or tool, describe the gameplay, objective, and challenges in three sentences.
+
+### Full Story (100+ words)
 - Write your story out in three labeled acts.
 - Follow the three act structure discussed in class.
 - This will be the text of your story as you would like it to appear in your project.
 - Consider breaking your text into pages within the acts.
 
-## Description/User Scenario (100 to 200 words)
+
+### Description/User Scenario (100 to 200 words)
 - Describe what the user will experience when they interact with your project.
 - In interactive experiences, each user may have a different experience. Focus on a **single path** through your project.
 - Start with the user opening your project, end when the experience ends.
 
-## Interaction Storyboards (one per page)
+### Interaction Storyboards (3+ storyboards)
+- Create an interaction storyboard for each "page" in your narrative.
+- Design interactions for each page that support the meaning or tone of your story.
+- Use captions to explain the user's actions and the project response.
+- You can use the template from the storyboarding assignment.
+- You can draw your storyboards by hand or digitally, be neat and clean.
+- Do not worry about the specific composition or style of your application in the storyboards, focus on user interaction.
 
-## Technical Challenges
-- Identify any 
+### Reference Projects (3 project summaries, 100+ words each)
+Find three projects that have inspiring aspects. Write mini-reviews explaining each project and relating them to your project. At least one of your reference projects should be interactive. At least one should be non-interactive. 
 
-## Style Reference (20-30 images)
-Collected, organized images that show the spirit/feeling you will be trying to capture.
-google image search
+For each project include the following:
+- Project Title
+- Project Authors
+- Brief description
+- Your view of the projects primary strength
+- Possibly include discussion of project weaknesses if relevant
+- Relating the project to your proposed project. Show how the reference project could positively influence your work.
+- Collect 2 to 3 images for each project.
+- If possible include a web link to the project.
+
+### Style Reference (20-30 images)
+Collect images that exemplify stylistic elements you will be trying to capture in your project. Look for reference for media, tone, style, mood, lighting, scale, and texture. 
 
 [Google Image Search](https://www.google.com/imghp)
 [Artstation](https://www.artstation.com)
 [Behance](https://www.behance.net/)
 
 
-
-## Reference Projects (3x100 words)
-Find three projects that have inspiring aspects. Written mini-reviews of the projects including: titles, authors, brief description, strengths and weaknesses, relating them to your proposed project. Also collect images, links to the projects.
-1 interactive
-1 non interactive
-
-
-
-## Budget
-
-## Calendar
-
-
-# Proposal Part 2
-
-Revise all text based on feedback.
-
-Revise storyboards.
-
-Add comps of each screen.
+### Staffing Plan, Budget, and Production Calendar
+Almost every proposal we send out includes a staffing plan, a budget, and speculative production calendar. You don't need to make one: you are the whole staff, you've got no budget, and the calendar is outlined above.
 
 

@@ -62,73 +62,8 @@ See: [Wikipedia](https://en.wikipedia.org/wiki/Three-act_structure), [TVTropes](
 - read story to class
 
 
-# Final Assignment
 
-The final assignment begins today and is due for crit at the start of our final class. Each week a specific milestone will be due. 
-
-Class | Agenda
-------|-------
-Week 10, November 6 | Due: Tool Merge <br> Classifying Interactions Discussion / Narrative Workshop / Intro Final
-Week 11, November 13 | Due: Proposal Research + Writing <br> Creating Proposals + Treatments / Individual Meetings / In class work
-Week 12, November 20 | Due: Proposal Decks <br> Group Crits / In class work
-No Class, November 27 | Thanksgiving Break
-Week 13, December 4 | Due: POC <br> Special Topic Demos / Group Crits / In class work
-Week 14, December 11 | Due: WIP <br> Special Topic Demos / Group Crits / In class work
-Week 15, December 18 | Due: Final Project <br> Final Crit
-
-## Requirements
-
-> “Here is one of the few effective keys to the design problem — the ability of the designer to recognize as many of the constraints as possible — his willingness and enthusiasm for working within these constraints.” – Charles Eames
-
-
-## Assignment Prompt: Three Scene Interactive Narrative
-
-Create an interactive narrative in three acts. Each act will combine interaction, image, and text to convey its part of the narrative. Each act should lead into the next, creating a full story that user participates in.
-
-This assignment is about exploring an intersection of traditional narrative storytelling with interactivity. In creating your story be especially mindful of the role of the user. Are they an outside observer who's actions have little influence over the story (a less interactive approach)? Are they in the role of the protagonist, and must find a way to address the conflict (more interactive)? Do they take the role of a god, influencing the world of the characters, but not participating? How do their interactions change their experience?
-
-
-- Your story should be told in three distinct acts, following the three act structure discussed in class.
-- Each act must have at least on "screen" or "page", but you may have additional pages as suits your story. For example you may want to show several challenges in your Act II, or may want final page after the conflict to resolve the story.
-- Your story plot and characters should be entirely original. No remakes, reboots, or fanfics.
-- Your images must be original and created by you. You may use digital or physical media to create your images.
-- You must use text, image, and interaction in each act to convey your story.
-- Each page must feature a prominent interaction that supports and advances the story.
-
-
-## Alternate Assignment Prompt: Game
-
-**APPROVAL REQUIRED:** You must get approval, in class today, to pursue this prompt for the final.
-
-Create a single player game in p5. The nature of your game is up to you, but it must have a defined objective and require skill to win. This alternate assignment will require a greater amount of self-direction and technical exploration.
-
-Requirements:
-- Must have an objective
-- Must have one or more factors that create a challenge
-- Must be winnable and losable
-- Success must be determined primary by skill, not luck.
-- Your game should be original, but it may feature 
-- Your images must be original and created by you. You may use digital or physical media to create your images.
-- Your game setting, characters (if any), etc. should be entirely original. No remakes or reboots.
-- Your game may use existing game mechanics (it would be very challenging not to), but you should try to distance it from any particular game.
-- Your game must feature sounds effects that accent game events. Use the p5 sound library, which you will need to explore on your own.
-- Should have at least the following "screens": title screen, game screen, win screen, lose screen
-
-
-
-## Alternate Assignment Prompt: Creative Tool
-
-**APPROVAL REQUIRED:** You must get approval, in class today, to pursue this prompt for the final.
-
-Create a creative tool in p5. This tool should allow an artist/designer to create an original work of some kind. Examples include image and music making applications. This alternate assignment will require a greater amount of self-direction and technical exploration.
-
-Requirements:
-- Must allow the user to create something
-- Must allow user to export creation, see: p5.js `save`
-- Should allow a wide range of expression
-
-
-## How to write a proposal
+# How to write a proposal
 
 Writing a proposal requires two things: choosing an idea to propose and writing about the idea.
 
@@ -153,6 +88,76 @@ Writing
 8. Find a fried to read and markup your final writing. No one edits their own work very well. Encourage them to point out things they don't understand. Review their notes with them, then make your final revisions.
 
 **In short: List, Research, Sleep, Write, Research, Sleep, Read, Revise, Sleep, Finish**
+
+
+
+# Final Assignment
+
+The final assignment begins today and is due for crit at the start of our final class. Each week a specific milestone will be due. 
+
+Class | Agenda
+------|-------
+Week 10, November 6 | Due: Tool Merge <br> Classifying Interactions Discussion / Narrative Workshop / Intro Final
+Week 11, November 13 | Due: Proposal Research + Writing <br> Creating Proposals + Treatments / Individual Meetings / In class work
+Week 12, November 20 | Due: Proposal Decks <br> Group Crits / In class work
+No Class, November 27 | Thanksgiving Break
+Week 13, December 4 | Due: POC <br> Special Topic Demos / Group Crits / In class work
+Week 14, December 11 | Due: WIP <br> Special Topic Demos / Group Crits / In class work
+Week 15, December 18 | Due: Final Project <br> Final Crit
+
+### Requirements
+
+> “Here is one of the few effective keys to the design problem — the ability of the designer to recognize as many of the constraints as possible — his willingness and enthusiasm for working within these constraints.” – Charles Eames
+
+
+### Assignment Prompt: Three Scene Interactive Narrative
+
+Create an interactive narrative in three acts. Each act will combine interaction, image, and text to convey its part of the narrative. Each act should lead into the next, creating a full story that user participates in.
+
+This assignment is about exploring an intersection of traditional narrative storytelling with interactivity. In creating your story be especially mindful of the role of the user. Are they an outside observer who's actions have little influence over the story (a less interactive approach)? Are they in the role of the protagonist, and must find a way to address the conflict (more interactive)? Do they take the role of a god, influencing the world of the characters, but not participating? How do their interactions change their experience?
+
+
+- Your story should be told in three distinct acts, following the three act structure discussed in class.
+- Each act must have at least on "screen" or "page", but you may have additional pages as suits your story. For example you may want to show several challenges in your Act II, or may want final page after the conflict to resolve the story.
+- Your story plot and characters should be entirely original. No remakes, reboots, or fanfics.
+- Your images must be original and created by you. You may use digital or physical media to create your images.
+- You must use text, image, and interaction in each act to convey your story.
+- Each page must feature a prominent interaction that supports and advances the story.
+
+
+### Alternate Assignment Prompt: Game
+
+**APPROVAL REQUIRED:** You must get approval, in class today, to pursue this prompt for the final.
+
+Create a single player game in p5. The nature of your game is up to you, but it must have a defined objective and require skill to win. This alternate assignment will require a greater amount of self-direction and technical exploration.
+
+Requirements:
+- Must have an objective
+- Must have one or more factors that create a challenge
+- Must be winnable and losable
+- Success must be determined primary by skill, not luck.
+- Your game should be original, but it may feature 
+- Your images must be original and created by you. You may use digital or physical media to create your images.
+- Your game setting, characters (if any), etc. should be entirely original. No remakes or reboots.
+- Your game may use existing game mechanics (it would be very challenging not to), but you should try to distance it from any particular game.
+- Your game must feature sounds effects that accent game events. Use the p5 sound library, which you will need to explore on your own.
+- Should have at least the following "screens": title screen, game screen, win screen, lose screen
+
+
+
+### Alternate Assignment Prompt: Creative Tool
+
+**APPROVAL REQUIRED:** You must get approval, in class today, to pursue this prompt for the final.
+
+Create a creative tool in p5. This tool should allow an artist/designer to create an original work of some kind. Examples include image and music making applications. This alternate assignment will require a greater amount of self-direction and technical exploration.
+
+Requirements:
+- Must allow the user to create something
+- Must allow user to export creation, see: p5.js `save`
+- Should allow a wide range of expression
+
+
+
 
 # Milestone 1: Proposal Research + Writing
 

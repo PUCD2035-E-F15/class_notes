@@ -167,7 +167,9 @@ For next week, figure out what you are going to make and spend some time develop
 
 **You can't change your project after this week.** 
 
-You'll be doing a lot of writing this week and a little reference research, each of the components below is required. Collect all your writing together in a single text file, with clear headings. Name your reference images well and collect them in a folder. Bring all of this to class digitally next week.
+You'll be doing a lot of writing this week and a little reference research, each of the components below is required. Collect all your writing together in a single text file, with clear headings. Name your reference images well organize them. 
+
+**Next week bring print outs of your research and writing.** Your writing should be printed in  black and white, 10 - 12 point type, double spaced for editing. Print double sided if possible to save paper. Your images should be printed in color, 6 to 8 up. Collect all of you printout in your folder. **Also bring all of this to class digitally next week.**
 
 Next week I'll be showing several pitches and treatments for large scale interactive and animation projects. For next weeks assignment you will create comps showing exactly how your project will look and lay out your writing, research, and comps into a professional pitch deck. 
 
@@ -221,7 +223,7 @@ For each project include the following:
 - If possible include a web link to the project.
 
 ### Style Reference (20-30 images)
-Collect images that exemplify stylistic elements you will be trying to capture in your project. Look for reference for media, tone, style, mood, lighting, scale, and texture. 
+Collect images that exemplify stylistic elements you will be trying to capture in your project. Look for reference for media, tone, style, mood, lighting, scale, and texture. You may include up to 5 images of your own work, if applicable.
 
 [Google Image Search](https://www.google.com/imghp)
 [Artstation](https://www.artstation.com)

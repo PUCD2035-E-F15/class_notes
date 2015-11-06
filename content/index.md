@@ -25,7 +25,7 @@
 | Week 7 | Programming Interactions | [class notes](week_7)
 | Week 8 | Interaction and Narrative | [class notes](week_8)
 | Week 9 | Collaborative Programming | [class notes](week_9)
-| Week 10 | Programming for the Web | [class notes](#)
+| Week 10 | Programming for the Web | [class notes](week_10)
 
 | Unit 3 | Advanced Topics and Final
 | --- | ---

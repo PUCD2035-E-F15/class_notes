@@ -99,7 +99,7 @@ Class | Agenda
 ------|-------
 Week 10, November 6 | Due: Tool Merge <br> Classifying Interactions Discussion / Narrative Workshop / Intro Final
 Week 11, November 13 | Due: Proposal Research + Writing <br> Creating Proposals + Treatments / Individual Meetings / In class work
-Week 12, November 20 | Due: Proposal Decks <br> Group Crits / In class work
+Week 12, November 20 | Due: Proposal Decks w/ Comps <br> Group Crits / In class work
 No Class, November 27 | Thanksgiving Break
 Week 13, December 4 | Due: POC <br> Special Topic Demos / Group Crits / In class work
 Week 14, December 11 | Due: WIP <br> Special Topic Demos / Group Crits / In class work

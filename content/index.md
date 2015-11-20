@@ -30,7 +30,7 @@
 | Unit 3 | Advanced Topics and Final
 | --- | ---
 | Week 11 | Advanced Topics | [class notes](week_11)
-| Week 12 | Creating Proposals | [class notes](#)
+| Week 12 | Creating Proposals | [class notes](week_12)
 | Week 13 | Creating Proofs of Concept | [class notes](#)
 | Week 14 | WIP Critique | [class notes](#)
 | Week 15 | Final Critique | [class notes](#)

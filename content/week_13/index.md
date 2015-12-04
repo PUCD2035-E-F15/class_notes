@@ -54,7 +54,16 @@ Okay, great, [It's turtles all the way down](https://en.wikipedia.org/wiki/Turtl
 [web_demo](web_demo)
 
 
-# A P5 Project Template
+# The P5 Project Template
+
+I've updated the [p5_template](https://github.com/PUCD2035-E-F15/p5_template) repo. You can use it as a basis for your project, but instead of cloning the repo we'll build a project from scratch and copy files from the template into it.
+
+1. Create a new project on github.
+2. Clone the project to your computer.
+3. Download the p5_template files.
+4. Copy over the files, check them, customize them.
+5. Make sure it looks right in the browser.
+6. Make an initial commit.
 
 # Changing the Page
 

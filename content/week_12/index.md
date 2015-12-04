@@ -13,6 +13,10 @@ Week 15, December 18 | Due: Final Project <br> Final Crit
 
 # Proposal Decks Small Group Reviews
 
+4:00 Group 1
+4:20 Group 2
+4:40 Group 3
+
 # Assignment
 
 At this point you should have a clear picture of what your are making for your final assignment. You should also have the bulk of the illustration/graphics production complete. Over the next week you will build and refine your final project. Much of this work will be programming. For next week get a good start by creating a Proof of Concept (POC) showing that you will be able to achieve your goals.

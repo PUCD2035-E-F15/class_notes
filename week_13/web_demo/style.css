@@ -1,0 +1,23 @@
+body {
+	background-color: #444;
+	font-family: Helvetica;
+	font-size: 3em;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: #CAF;
+}
+
+b {
+	color: #FAA;
+}
+
+#click-message {
+	font-size: 2em;
+	color: red;
+}

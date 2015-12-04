@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/bootswatch.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/atelier-health.light.css">
+	<link rel="stylesheet" type="text/css" href="/class_notes/styles/main.css">
+	<script type="text/javascript">
+		var base_url = "/class_notes/";
+	</script>
+
+</head>
+<body>
+	<!-- title:  -->
+	<div class="container">
+		<h1>Week 12 Class Notes</h1>
+<table>
+<thead>
+<tr><th>Class</th><th>Agenda</th></tr>
+</thead>
+<tbody>
+<tr><td>Week 10, November 6</td><td>Due: Tool Merge <br> Classifying Interactions Discussion / Narrative Workshop / Intro Final</td></tr>
+<tr><td>Week 11, November 13</td><td>Due: Proposal Research + Writing <br> Creating Proposals + Treatments / Individual Meetings / In class work</td></tr>
+<tr><td>Week 12, November 20</td><td>Due: Proposal Decks w/ Comps <br> Group Crits / In class work</td></tr>
+<tr><td>No Class, November 27</td><td>Thanksgiving Break</td></tr>
+<tr><td><strong>Week 13, December 4</strong></td><td><strong>Due: POC <br> Creating a P5 + Github project / In class work</strong></td></tr>
+<tr><td>Week 14, December 11</td><td>Due: WIP <br> Special Topic Demos / Group Crits / In class work</td></tr>
+<tr><td>Week 15, December 18</td><td>Due: Final Project <br> Final Crit</td></tr>
+</tbody>
+</table>
+<h1>Starting from “Scratch”</h1>
+<p>Up to now, you’ve been starting project by cloning a template repository. Today, we’ll take a look a short look at HTML, JS, and CSS, and build a working P5-based web project piece by piece.</p>
+<h1>But not really from Scratch</h1>
+<blockquote>
+<p>If you wish to make an apple pie from scratch, you must first invent the universe.</p>
+<p>— Carl Sagan, Cosmos</p>
+</blockquote>
+<p>The projects you have been making in class are defined at a very <strong>high level</strong> of abstraction, and rely on an incredible amount of code written by others.</p>
+<p>For example:</p>
+<ul>
+<li>Your project uses Javascript to define behavior.</li>
+<li>The Javascript is <strong>interpreted</strong> in real time by a javascript engine called V8. V8 is an open-source engine created by Google. It has about <strong>1.5 million lines of code.</strong></li>
+<li>V8 wouldn’t work on it’s own, it is run in the context of the Operating System (OS X, Windows, Linux). The OS has <strong>tens of millions of lines of code</strong>.</li>
+</ul>
+<p>Also:</p>
+<ul>
+<li>Your project relies directly on the P5 library do draw shapes easily.</li>
+<li>The P5 library uses the Javascript Canvas and DOM APIs to create a drawing context and to draw shapes.</li>
+<li>The shapes are defined at a high level: stroke color, fill color, starting point, ending point, Bézier curve control points. Algorithms that <strong>rasterize</strong> this data (draw it out pixel by pixel) have been researched and refined by dozens of teams of programmers and mathematicians.</li>
+</ul>
+<p>And:</p>
+<ul>
+<li>Your project is written in HTML, so it can be rendered by a web browser that will fetch your project over HTTP (Hypertext Transfer Protocol).</li>
+<li>Loading a page on the Internet involves dozens of computers, and millions of dollars of physical infrastructure.</li>
+</ul>
+<blockquote>
+<p>You’ve just put into play DNS, TCP, UDP, IP, Wifi, Ethernet, DOCSIS, OC, SONET, and more. Those are actually such incredibly complex technologies that they’ll make any engineer dizzy if they think about them too much, and such that no single company can deal with that entire complexity.</p>
+</blockquote>
+<p><a href="https://plus.google.com/+JeanBaptisteQueru/posts/dfydM2Cnepe">Jean-Baptiste “JBQ” Quéru, Dizzying but Invisible Depth</a></p>
+<h1>HTML, CSS, Javascript</h1>
+<p>Okay, great, <a href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down">It’s turtles all the way down</a>, but we don’t need to understand how the computer hardware and operating system work to start making web pages. We don’t even really need to understand much of how the browser works. We can float over all of that effort and work at a very high level: HTML, CSS, and Javascript.</p>
+<ul>
+<li>HTML describes <em>what is says</em></li>
+<li>CSS describes <em>how it looks</em></li>
+<li>Javascript describes <em>what it does</em></li>
+</ul>
+<p><a href="web_demo">web_demo</a></p>
+<h1>The P5 Project Template</h1>
+<p>I’ve updated the <a href="https://github.com/PUCD2035-E-F15/p5_template">p5_template</a> repo. You can use it as a basis for your project, but instead of cloning the repo we’ll build a project from scratch and copy files from the template into it.</p>
+<ol>
+<li>Create a new project on github.</li>
+<li>Clone the project to your computer.</li>
+<li>Download the p5_template files.</li>
+<li>Copy over the files, check them, customize them.</li>
+<li>Make sure it looks right in the browser.</li>
+<li>Make an initial commit.</li>
+</ol>
+<h1>Changing the Page</h1>
+<pre><code><span class="hljs-built_in">window</span>.location.href = <span class="hljs-string">'...'</span>;
+</code></pre>
+<h1>Assignment</h1>
+<p>Your final project is due in two weeks.</p>
+
+	</div>
+	
+	<script type="text/javascript" src="/class_notes/javascript/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/highlight.pack.js"></script>
+	<script type="text/javascript" src="/class_notes/javascript/p5_example.js"></script>
+	<script type="text/javascript">
+		$( function() {
+			$("table").addClass("table table-bordered");
+		});
+	</script>
+</body>
+</html>
